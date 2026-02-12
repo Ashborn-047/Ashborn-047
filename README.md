@@ -4,10 +4,6 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00FF9C&center=true&vCenter=true&width=500&lines=SYSTEM+BOOT+SUCCESSFUL...;WELCOME+TO+ASHBORN-047+TERMINAL;VIBE+CODING+LEVEL:+MAXIMUM;BUILDING+THE+FUTURE+WITH+AI+🪄" alt="Typing SVG" />
 </p>
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/render?type=waving&color=00FF9C&height=120&section=header&text=Human-AI%20Hybrid%20Developer&fontSize=35&fontAlignY=35&animation=fadeIn" />
-</p>
-
 ---
 
 ### 💻 System Information
@@ -27,22 +23,15 @@ Motto: "I don't just write code, I manifest it through agents."
 
 ---
 
-### 🚀 Featured Deployments
-
-| Project | Description | Tech Stack |
-| :--- | :--- | :--- |
-| **[Ashborn-terminal-OS](https://github.com/Ashborn-047/Ashborn-terminal-OS)** | A cinematic, terminal-driven OS built with Framer Motion. | React, TS, Motion |
-| **[LifeSync](https://github.com/Ashborn-047/LifeSync)** | Modular AI-powered personal operating system. | AI, Modular UI |
-| **[Vanguard-UI](https://github.com/Ashborn-047/Vanguard-UI)** | High-fidelity dashboard design system. | CSS, Figma |
-
----
-
 ### 🛠️ The Cyber-Toolkit
 
 <p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,js,react,figma,python,bash,git,github,vscode,ai,md" />
-  </a>
+  <img src="https://img.shields.io/badge/HTML5-E34C26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
 </p>
 
 ---
@@ -50,13 +39,8 @@ Motto: "I don't just write code, I manifest it through agents."
 ### 📊 System Diagnostics
 
 <p align="center">
-  <img height="185em" src="https://github-readme-stats.vercel.app/api?username=Ashborn-047&show_icons=true&theme=tokyonight&bg_color=0D1117&title_color=00FF9C&text_color=E6EDF3&icon_color=00FF9C" />
-  <img height="185em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ashborn-047&layout=compact&langs_count=8&theme=tokyonight&bg_color=0D1117&title_color=00FF9C&text_color=E6EDF3" />
-</p>
-
-#### 🐍 Contribution Snake
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Ashborn-047/Ashborn-047/output/github-contribution-grid-snake.svg" alt="Snake" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Ashborn-047&show_icons=true&theme=tokyonight&bg_color=0D1117&title_color=00FF9C&text_color=E6EDF3&icon_color=00FF9C" alt="Ashborn's GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ashborn-047&layout=compact&langs_count=8&theme=tokyonight&bg_color=0D1117&title_color=00FF9C&text_color=E6EDF3" alt="Top Languages" />
 </p>
 
 ---
