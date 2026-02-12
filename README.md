@@ -23,6 +23,23 @@ Motto: "I don't just write code, I manifest it through agents."
 
 ---
 
+### 🕹️ Mission: Contribution Strike
+<p align="center">
+  <img src="game.gif" alt="Space Shooter Game" />
+</p>
+<p align="center">
+  <i>Visualizing GitHub contributions as a Space Shooter 🚀</i>
+</p>
+
+---
+
+### ⚡ Dynamic System Activity
+<!-- START_SECTION:activity -->
+*System initializing... activity pulse incoming.*
+<!-- END_SECTION:activity -->
+
+---
+
 ### 🛠️ The Cyber-Toolkit
 
 <p align="left">
@@ -40,15 +57,7 @@ Motto: "I don't just write code, I manifest it through agents."
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Ashborn-047&show_icons=true&theme=tokyonight&bg_color=0D1117&title_color=00FF9C&text_color=E6EDF3&icon_color=00FF9C" alt="Ashborn's GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ashborn-047&layout=compact&langs_count=8&theme=tokyonight&bg_color=0D1117&title_color=00FF9C&text_color=E6EDF3" alt="Top Languages" />
 </p>
-
----
-
-### 🕹️ Terminal Fun
-- **Status:** Mastering the art of "Vibe Coding" 🌊
-- **Interests:** High-End Gaming 🎮 \| Design Architecture 🎨 \| AI Autonomy 🤖
-- **Fun Fact:** I ain't a "coder" in the 2010 sense; I'm a conductor for AI symphony.
 
 ---
 
