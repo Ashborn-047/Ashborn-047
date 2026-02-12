@@ -1,190 +1,66 @@
 # 👋 Hello, I'm Ashborn!
 
-> Some networks/browsers block external SVG images.  
-> This profile is now **pure markdown + one local GIF**, so nothing should show up as a broken image.
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00FF9C&center=true&vCenter=true&width=500&lines=SYSTEM+BOOT+SUCCESSFUL...;WELCOME+TO+ASHBORN-047+TERMINAL;VIBE+CODING+LEVEL:+MAXIMUM;BUILDING+THE+FUTURE+WITH+AI+🪄" alt="Typing SVG" />
+</p>
 
 ---
 
-### 💻 System Console
-
+### 💻 System Information
 ```yaml
 User: Ashborn-047
-Environment: AI-First / High-Aesthetic
-Capabilities: [Vibe Coding, UI Alchemy, Agent Orchestration]
-Status: Active (Conducting AI Symphony)
-Motto: "I don't just write code, I manifest it."
+Profile: Human-AI Hybrid / AI Enthusiast
+Vibe: Terminal-Centric / UI-Polished
+Specialty: Vibe Coding / Human-Agent Orchestration
+Motto: "I don't just write code, I manifest it through agents."
 ```
 
-**Quick bits**
-- **Mode**: Human–AI hybrid dev, obsessed with interfaces & agents  
-- **Focus**: Frontend polish · AI tooling · workflow automation  
-- **Energy**: Terminal aesthetic, high signal, low noise  
+### 🧠 Core Directives
+- **Architecture:** Orchestrating complex workflows using **Antigravity**, **Claude**, and **Cursor**.
+- **Frontend Alchemy:** Transforming Figma designs into pixel-perfect reality.
+- **Experimental Lab:** Deploying small-scale ML experiments and Python automations.
+- **System Aesthetic:** Designing cinematic, terminal-driven experiences.
 
+---
+
+### 🕹️ Mission: Contribution Strike
 <p align="center">
-  <kbd>OS</kbd> Windows · <kbd>Editor</kbd> Cursor · <kbd>Theme</kbd> Tokyo Night · <kbd>Mode</kbd> Dark
+  <img src="game.gif" alt="Space Shooter Game" />
 </p>
-
 <p align="center">
-  <code>[ ONLINE ]</code> <code>[ LATENCY: LOW ]</code> <code>[ COFFEE: ∞ ]</code>
+  <i>Visualizing GitHub contributions as a Space Shooter 🚀</i>
 </p>
 
 ---
 
-### 🧠 Interactive Logs
-
-<details open>
-  <summary><b>Operational Phases</b></summary>
-
-- **Phase 1** → Orchestrating complex workflows with **Antigravity**, **Claude**, and **Cursor**
-- **Phase 2** → Visualizing the invisible through **Figma**
-- **Phase 3** → Deploying agentic automations & experimental ML modules
-
-</details>
-
-<details>
-  <summary><b>Mission Checklist</b></summary>
-
-- [x] Boot **Ashborn-047** environment  
-- [x] Wire up AI-assisted coding workflows  
-- [ ] Ship a fully agentic personal OS  
-- [ ] Turn this profile into a live control panel  
-
-</details>
-
-<details>
-  <summary><b>Command Palette</b></summary>
-
-```bash
-# spin up the dev brain
-alias ashborn="code . && open figma && open cursor"
-
-# summon AI swarm
-ashborn --agents "design,ship,iterate"
-
-# deploy vibes
-git commit -m 'chore: raise aesthetic ceiling'
-```
-
-</details>
-
----
-
-### 🕹️ Active Mission: Contribution Strike
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Ashborn-047/Ashborn-047/main/game.gif" alt="Space Shooter Game (contributions as projectiles)" />
-</p>
-<p align="center">
-  <i>Defending the repository... contributions turning into projectiles! 🚀</i>
-</p>
-
-<details>
-  <summary><b>How to Play</b></summary>
-
-- **Move** through repos, issues, and ideas  
-- **Fire** with PRs, commits, and experiments  
-- **Level up** by shipping small, weird, high-impact things  
-
-</details>
+### ⚡ Dynamic System Activity
+<!-- START_SECTION:activity -->
+*System initializing... activity pulse incoming.*
+<!-- END_SECTION:activity -->
 
 ---
 
 ### 🛠️ The Cyber-Toolkit
 
-<details open>
-  <summary><b>Visual Stack (icons may be SVG)</b></summary>
-
-<table>
-  <tr>
-    <td><b>Frontend</b></td>
-    <td><progress value="80" max="100"></progress></td>
-  </tr>
-  <tr>
-    <td><b>Design</b></td>
-    <td><progress value="85" max="100"></progress></td>
-  </tr>
-  <tr>
-    <td><b>Automation / Agents</b></td>
-    <td><progress value="75" max="100"></progress></td>
-  </tr>
-  <tr>
-    <td><b>DevOps / Git</b></td>
-    <td><progress value="65" max="100"></progress></td>
-  </tr>
-</table>
-
-<p>
-  <sub><i>HTML-only progress bars — percentages are vibe meters, not strict ratings.</i></sub>
+<p align="left">
+  <img src="https://img.shields.io/badge/HTML5-E34C26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
 </p>
-
-- **Frontend**: HTML · CSS · JavaScript · React  
-- **Design**: Figma · UI systems · micro-interactions  
-- **Backend / Scripting**: Python · Bash  
-- **DevOps / Git**: Git · GitHub  
-- **Tools**: VS Code · Cursor · AI copilots  
-
-</details>
-
----
-
-### ⚡ Live System Pulse
-
-<details open>
-  <summary><b>Recent GitHub Activity</b></summary>
-
-<!-- START_SECTION:activity -->
-*Connecting to neural network... waiting for next commit pulse.*
-<!-- END_SECTION:activity -->
-
-<sub><i>This section can be wired to a GitHub Action to auto-stream your latest activity.</i></sub>
-
-</details>
-
-<details>
-  <summary><b>Runtime Status Bar</b> (HTML-only HUD)</summary>
-
-```text
-[CPU: CALM]  [RAM: OVERTHINKING]  [NET: GITHUB NEBULA]  [STATE: ALWAYS LEARNING / SHIPPING]
-```
-
-</details>
 
 ---
 
 ### 📊 System Diagnostics
 
-<details open>
-  <summary><b>GitHub Stats Dashboard</b> (SVG cards)</summary>
-
-- **Contribution graph**: check the green squares on my profile  
-- **Language mix**: scan my public repos for React / Python / tooling  
-- **Session vibe**: mostly small, focused commits instead of giant dumps  
-
-Useful links:
-
-- Profile: `github.com/Ashborn-047`  
-- Repos: `github.com/Ashborn-047?tab=repositories`  
-
-</details>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Ashborn-047&show_icons=true&theme=tokyonight&bg_color=0D1117&title_color=00FF9C&text_color=E6EDF3&icon_color=00FF9C" alt="Ashborn's GitHub stats" />
+</p>
 
 ---
-
-### ☁️ Skill Orbit
-
-<details open>
-  <summary><b>Featured Project</b></summary>
-
-**Ashborn-terminal-OS**  
-- Terminal-inspired personal OS concept  
-- Focused on agents, shortcuts, and cinematic UX  
-- Repo: `github.com/Ashborn-047/Ashborn-terminal-OS`
-
-</details>
-
----
-
-### 📡 Access Log
 
 <p align="center">
-  <sub><i>Next step: wire this profile into a real agentic dashboard.</i></sub>
+  <img src="https://komarev.com/ghpvc/?username=Ashborn-047&label=ACCESS%20COUNT&color=00FF9C&style=flat-square" alt="Views" />
 </p>
