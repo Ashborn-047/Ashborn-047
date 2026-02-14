@@ -30,13 +30,7 @@ Motto: "I don't just write code, I manifest it through agents."
 <p align="center">
   <i>Visualizing GitHub contributions as a Space Shooter 🚀</i>
 </p>
-
 ---
-
-### ⚡ Dynamic System Activity
-<!-- START_SECTION:activity -->
-*System initializing... activity pulse incoming.*
-<!-- END_SECTION:activity -->
 
 ---
 
