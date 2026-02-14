@@ -9,7 +9,6 @@ on:
 permissions:
   contents: write
   actions: read
-  metadata: read
 
 jobs:
   build:
@@ -18,7 +17,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      - uses: jamesgeorge007/github-activity-readme@v1.9.4
+      - uses: jamesgeorge007/github-activity-readme@v0.4.6
         env:
           GITHUB_TOKEN: ${{ github.token }}
         with:
