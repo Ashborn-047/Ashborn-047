@@ -8,6 +8,8 @@ on:
 
 permissions:
   contents: write
+  actions: read
+  metadata: read
 
 jobs:
   build:
@@ -16,10 +18,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      - uses: jamesgeorge007/github-activity-readme@master
-        if: github.event_name != 'push'
+      - uses: jamesgeorge007/github-activity-readme@v1.9.4
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
         with:
           COMMIT_MSG: "updated with latest activity"
           MAX_LINES: 5
