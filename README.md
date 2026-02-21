@@ -8,12 +8,37 @@
 
 ### ✨ About Me
 
-I am a **Frontend Architect** and **AI Enthusiast** dedicated to bridging the gap between complex logic and elegant design. Currently focused on **Vibe Coding** and human-agent orchestration, I manifest vision into reality through pixel-perfect implementation and intelligent automation.
+I am a **Frontend Architect** & **AI Orchestrator** focused on building cinematic web experiences. I specialize in **Vibe Coding**—the intersection of human intuition and agentic automation.
 
-- 🚀 **Currently:** Orchestrating complex workflows with **Antigravity**, **Claude**, and **Cursor**.
-- 🎨 **Passion:** Transforming sophisticated designs into responsive, high-performance web applications.
-- 🧪 **Experiments:** Developing small-scale ML models and efficient Python automations.
-- 📐 **Vision:** Creating cinematic, user-centric interfaces that feel alive.
+- 🛠️ **Build:** Crafting high-performance, responsive architectures with **React** & **Next.js**.
+- 🧠 **Orchestrate:** Leveraging **Antigravity**, **Claude**, and **Cursor** to streamline complex workflows.
+- 🧪 **Experiment:** Developing ML micro-services and efficient Python automation scripts.
+- 🎨 **Design:** Manifesting pixel-perfect, interactive interfaces that feel alive.
+
+---
+
+### 🔍 Technical Deep Dive
+
+<details>
+<summary><b>🏗️ Architectural Philosophy</b></summary>
+<br>
+I believe in <b>Elegant Scalability</b>. My approach involves modularized component design, strict type safety, and seamless integration of AI-driven tools to enhance productivity without sacrificing quality. I bridge the gap between complex backend logic and user-centric frontend experiences.
+</details>
+
+<details>
+<summary><b>🧪 Ongoing Experiments</b></summary>
+<br>
+
+- **Multi-Agent Systems:** Researching how autonomous agents can collaborate on complex frontend refactors.
+- **Cinematic UI:** Exploring advanced **Framer Motion** transitions and WebGL for immersive browsing experiences.
+- **Vibe Coding:** Automating the "vibe" to "code" pipeline for faster prototyping.
+</details>
+
+<details>
+<summary><b>🧰 The Architect's Toolbox</b></summary>
+<br>
+Beyond the core tech stack, I rely heavily on **Figma** for high-fidelity prototyping, **PostgreSQL** for robust data management, and **Vercel** for lightning-fast edge deployments. My workflow is optimized for speed, reliability, and aesthetic excellence.
+</details>
 
 ---
 
@@ -21,8 +46,20 @@ I am a **Frontend Architect** and **AI Enthusiast** dedicated to bridging the ga
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,js,react,nextjs,tailwind,ts,py,figma,framer,git,vscode&theme=dark" />
+    <img src="https://skillicons.dev/icons?i=html,css,js,react,nextjs,tailwind,ts,py,figma,framer,git,vscode,postgres,nodejs,vercel&theme=dark" />
   </a>
+</p>
+
+---
+
+### 🐍 Contribution Journey
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ashborn-047/Ashborn-047/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Ashborn-047/Ashborn-047/output/github-snake.svg" />
+    <img alt="github-snake" src="https://raw.githubusercontent.com/Ashborn-047/Ashborn-047/output/github-snake.svg" />
+  </picture>
 </p>
 
 ---
@@ -48,6 +85,13 @@ I am a **Frontend Architect** and **AI Enthusiast** dedicated to bridging the ga
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ashborn-047&theme=tokyonight&hide_border=true&stroke=7C3AED&background=0D1117&ring=7C3AED&fire=7C3AED&sideNums=E6EDF3&sideLabels=E6EDF3&dates=E6EDF3" alt="GitHub Streak" />
 </p>
+
+---
+
+### 🤝 Shoutouts & Inspiration
+
+- 🐍 **Snake Animation:** Inspired by [tobimey](https://github.com/tobimey)
+- 🖱️ **Interactive Elements:** Inspired by [DenverCoder1](https://github.com/DenverCoder1)
 
 ---
 
