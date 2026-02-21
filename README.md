@@ -8,12 +8,12 @@
 
 ### ⚔️ Character Profile: The Architect
 
-| **Stat** | **Value** | **Class** |
+| **Trait** | **Value** | **Rank** |
 | :--- | :--- | :--- |
-| **Origin** | `Frontend Architect` | `Hero / Orchestrator` |
-| **Specialization** | `Vibe Coding` | `S-Rank Agent` |
-| **Main Hand** | `Next.js / TypeScript` | `Legendary Weapon` |
-| **Off Hand** | `AI Agents / Python` | `Ancient Grimoire` |
+| **Role** | `Frontend Architect` | `Lead Orchestrator` |
+| **Expertise** | `Vibe Coding` | `S-Tier Architect` |
+| **Primary Stack** | `Next.js / TypeScript` | `Legendary Loadout` |
+| **Secondary Stack** | `AI Agents / Python` | `Ancient Grimoire` |
 
 ---
 
@@ -38,8 +38,14 @@ graph TD
     D --> E(<b>Future-Proof Web</b>)
     
     style A fill:#7C3AED,stroke:#fff,stroke-width:2px,color:#fff
+    style B fill:#3B82F6,stroke:#fff,stroke-width:2px,color:#fff
+    style C fill:#10B981,stroke:#fff,stroke-width:2px,color:#fff
+    style B1 fill:#60A5FA,stroke:#fff,color:#000
+    style B2 fill:#60A5FA,stroke:#fff,color:#000
+    style C1 fill:#34D399,stroke:#fff,color:#000
+    style C2 fill:#34D399,stroke:#fff,color:#000
     style D fill:#7C3AED,stroke:#fff,stroke-width:2px,color:#fff
-    style E fill:#000,stroke:#7C3AED,stroke-width:4px,color:#7C3AED
+    style E fill:#0D1117,stroke:#7C3AED,stroke-width:4px,color:#7C3AED
 ```
 
 ---
