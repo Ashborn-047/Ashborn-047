@@ -113,11 +113,6 @@ Beyond the core tech stack, I rely heavily on **Figma** for high-fidelity protot
 ### 📊 Vital Statistics
 
 <p align="center">
-  <img src="https://github-readme-stats-sigma.vercel.app/api?username=Ashborn-047&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=7C3AED&text_color=E6EDF3&icon_color=7C3AED" alt="GitHub Stats" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-languages?username=Ashborn-047&theme=tokyonight" alt="Top Languages" />
-</p>
-
-<p align="center">
   <img src="https://streak-stats.demolab.com/?user=Ashborn-047&theme=tokyonight&hide_border=true&stroke=7C3AED&background=0D1117&ring=7C3AED&fire=7C3AED&sideNums=E6EDF3&sideLabels=E6EDF3&dates=E6EDF3" alt="GitHub Streak" />
 </p>
 
