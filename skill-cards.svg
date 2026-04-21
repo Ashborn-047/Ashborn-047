@@ -1,0 +1,178 @@
+<svg width="900" height="200" viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      /* Fallback font stack - Github blocks external @imports */
+      .label-appear {
+        font-family: 'Orbitron', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      }
+      text {
+        font-family: 'Share Tech Mono', 'Courier New', Courier, monospace;
+      }
+
+      .card-glow-1 { animation: glow1 3.0s ease-in-out infinite alternate; }
+      .card-glow-2 { animation: glow2 3.5s ease-in-out infinite alternate; }
+      .card-glow-3 { animation: glow3 2.8s ease-in-out infinite alternate; }
+      .card-glow-4 { animation: glow4 3.2s ease-in-out infinite alternate; }
+      .card-glow-5 { animation: glow5 2.6s ease-in-out infinite alternate; }
+
+      @keyframes glow1 {
+        from { stroke: #00d4ff; stroke-opacity: 0.3; filter: drop-shadow(0 0 3px #00d4ff40); }
+        to   { stroke: #00d4ff; stroke-opacity: 1.0; filter: drop-shadow(0 0 10px #00d4ffaa); }
+      }
+      @keyframes glow2 {
+        from { stroke: #4da6ff; stroke-opacity: 0.3; filter: drop-shadow(0 0 3px #4da6ff40); }
+        to   { stroke: #4da6ff; stroke-opacity: 1.0; filter: drop-shadow(0 0 10px #4da6ffaa); }
+      }
+      @keyframes glow3 {
+        from { stroke: #00ff88; stroke-opacity: 0.3; filter: drop-shadow(0 0 3px #00ff8840); }
+        to   { stroke: #00ff88; stroke-opacity: 1.0; filter: drop-shadow(0 0 10px #00ff88aa); }
+      }
+      @keyframes glow4 {
+        from { stroke: #7c5cff; stroke-opacity: 0.3; filter: drop-shadow(0 0 3px #7c5cff40); }
+        to   { stroke: #7c5cff; stroke-opacity: 1.0; filter: drop-shadow(0 0 10px #7c5cffaa); }
+      }
+      @keyframes glow5 {
+        from { stroke: #00d4ff; stroke-opacity: 0.3; filter: drop-shadow(0 0 3px #ff6b6b40); }
+        to   { stroke: #ff8c42; stroke-opacity: 1.0; filter: drop-shadow(0 0 10px #ff8c42aa); }
+      }
+
+      .bar-fill-1 { animation: barfill 2s 0.2s ease-out forwards; width: 0; }
+      .bar-fill-2 { animation: barfill 2s 0.5s ease-out forwards; width: 0; }
+      .bar-fill-3 { animation: barfill 2s 0.8s ease-out forwards; width: 0; }
+      .bar-fill-4 { animation: barfill 2s 1.1s ease-out forwards; width: 0; }
+      .bar-fill-5 { animation: barfill 2s 1.4s ease-out forwards; width: 0; }
+
+      @keyframes barfill {
+        to { width: var(--w); }
+      }
+
+      .icon-pulse {
+        animation: iconpulse 2s ease-in-out infinite alternate;
+      }
+      @keyframes iconpulse {
+        from { opacity: 0.7; transform: scale(1); }
+        to   { opacity: 1.0; transform: scale(1.1); }
+      }
+
+      .label-appear { animation: appear 0.5s ease-out forwards; opacity: 0; }
+      .la1 { animation-delay: 0.3s; }
+      .la2 { animation-delay: 0.6s; }
+      .la3 { animation-delay: 0.9s; }
+      .la4 { animation-delay: 1.2s; }
+      .la5 { animation-delay: 1.5s; }
+      @keyframes appear { to { opacity: 1; } }
+    </style>
+
+    <linearGradient id="cardBg1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a1628"/>
+      <stop offset="100%" stop-color="#060e1c"/>
+    </linearGradient>
+    <linearGradient id="bar1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00d4ff"/>
+      <stop offset="100%" stop-color="#0066ff"/>
+    </linearGradient>
+    <linearGradient id="bar2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4da6ff"/>
+      <stop offset="100%" stop-color="#0055dd"/>
+    </linearGradient>
+    <linearGradient id="bar3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00ff88"/>
+      <stop offset="100%" stop-color="#00aa55"/>
+    </linearGradient>
+    <linearGradient id="bar4" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7c5cff"/>
+      <stop offset="100%" stop-color="#4422cc"/>
+    </linearGradient>
+    <linearGradient id="bar5" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff8c42"/>
+      <stop offset="100%" stop-color="#cc5500"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Card backgrounds -->
+  <rect x="4"   y="4" width="164" height="192" rx="8" fill="url(#cardBg1)"/>
+  <rect x="4"   y="4" width="164" height="192" rx="8" fill="none" stroke-width="1.5" class="card-glow-1"/>
+
+  <rect x="184" y="4" width="164" height="192" rx="8" fill="url(#cardBg1)"/>
+  <rect x="184" y="4" width="164" height="192" rx="8" fill="none" stroke-width="1.5" class="card-glow-2"/>
+
+  <rect x="364" y="4" width="164" height="192" rx="8" fill="url(#cardBg1)"/>
+  <rect x="364" y="4" width="164" height="192" rx="8" fill="none" stroke-width="1.5" class="card-glow-3"/>
+
+  <rect x="544" y="4" width="164" height="192" rx="8" fill="url(#cardBg1)"/>
+  <rect x="544" y="4" width="164" height="192" rx="8" fill="none" stroke-width="1.5" class="card-glow-4"/>
+
+  <rect x="724" y="4" width="172" height="192" rx="8" fill="url(#cardBg1)"/>
+  <rect x="724" y="4" width="172" height="192" rx="8" fill="none" stroke-width="1.5" class="card-glow-5"/>
+
+  <!-- CARD 1 CONTENT: Frontend -->
+  <text x="86"  y="42" text-anchor="middle" font-size="28" class="icon-pulse" style="animation-delay:0s">⚛️</text>
+  <text x="86"  y="68" text-anchor="middle" font-size="11" fill="#00d4ff" letter-spacing="1" class="label-appear la1">FRONTEND</text>
+  <text x="86"  y="86" text-anchor="middle" font-size="10" fill="#4da6ff" class="label-appear la1">React / Next.js</text>
+  <!-- skill bars -->
+  <rect x="20" y="100" width="128" height="5" rx="2" fill="#0a2040"/>
+  <rect x="20" y="100" height="5" rx="2" fill="url(#bar1)" class="bar-fill-1" style="--w:122px"/>
+  <text x="20" y="122" font-size="9" fill="#6b7280" class="label-appear la1">Tailwind CSS</text>
+  <rect x="20" y="128" width="128" height="5" rx="2" fill="#0a2040"/>
+  <rect x="20" y="128" height="5" rx="2" fill="url(#bar1)" class="bar-fill-1" style="--w:115px"/>
+  <text x="20" y="150" font-size="9" fill="#6b7280" class="label-appear la1">Framer Motion</text>
+  <rect x="20" y="156" width="128" height="5" rx="2" fill="#0a2040"/>
+  <rect x="20" y="156" height="5" rx="2" fill="url(#bar1)" class="bar-fill-1" style="--w:100px"/>
+  <text x="86" y="182" text-anchor="middle" font-size="9" fill="#00d4ff" opacity="0.6" class="label-appear la1">[ S-TIER ]</text>
+
+  <!-- CARD 2 CONTENT: TypeScript -->
+  <text x="266" y="42" text-anchor="middle" font-size="28" class="icon-pulse" style="animation-delay:0.3s">🔷</text>
+  <text x="266" y="68" text-anchor="middle" font-size="11" fill="#4da6ff" letter-spacing="1" class="label-appear la2">TYPESCRIPT</text>
+  <text x="266" y="86" text-anchor="middle" font-size="10" fill="#4da6ff" class="label-appear la2">Type-Safe Everything</text>
+  <rect x="200" y="100" width="128" height="5" rx="2" fill="#0a2040"/>
+  <rect x="200" y="100" height="5" rx="2" fill="url(#bar2)" class="bar-fill-2" style="--w:124px"/>
+  <text x="200" y="122" font-size="9" fill="#6b7280" class="label-appear la2">Node.js / APIs</text>
+  <rect x="200" y="128" width="128" height="5" rx="2" fill="#0a2040"/>
+  <rect x="200" y="128" height="5" rx="2" fill="url(#bar2)" class="bar-fill-2" style="--w:110px"/>
+  <text x="200" y="150" font-size="9" fill="#6b7280" class="label-appear la2">PostgreSQL</text>
+  <rect x="200" y="156" width="128" height="5" rx="2" fill="#0a2040"/>
+  <rect x="200" y="156" height="5" rx="2" fill="url(#bar2)" class="bar-fill-2" style="--w:105px"/>
+  <text x="266" y="182" text-anchor="middle" font-size="9" fill="#4da6ff" opacity="0.6" class="label-appear la2">[ LEGENDARY ]</text>
+
+  <!-- CARD 3 CONTENT: AI Agents -->
+  <text x="446" y="42" text-anchor="middle" font-size="28" class="icon-pulse" style="animation-delay:0.6s">🤖</text>
+  <text x="446" y="68" text-anchor="middle" font-size="11" fill="#00ff88" letter-spacing="1" class="label-appear la3">AI AGENTS</text>
+  <text x="446" y="86" text-anchor="middle" font-size="10" fill="#00ff88" class="label-appear la3">Orchestration Layer</text>
+  <rect x="380" y="100" width="128" height="5" rx="2" fill="#0a2040"/>
+  <rect x="380" y="100" height="5" rx="2" fill="url(#bar3)" class="bar-fill-3" style="--w:120px"/>
+  <text x="380" y="122" font-size="9" fill="#6b7280" class="label-appear la3">Claude / Cursor</text>
+  <rect x="380" y="128" width="128" height="5" rx="2" fill="#0a2040"/>
+  <rect x="380" y="128" height="5" rx="2" fill="url(#bar3)" class="bar-fill-3" style="--w:108px"/>
+  <text x="380" y="150" font-size="9" fill="#6b7280" class="label-appear la3">Python / LangChain</text>
+  <rect x="380" y="156" width="128" height="5" rx="2" fill="#0a2040"/>
+  <rect x="380" y="156" height="5" rx="2" fill="url(#bar3)" class="bar-fill-3" style="--w:95px"/>
+  <text x="446" y="182" text-anchor="middle" font-size="9" fill="#00ff88" opacity="0.6" class="label-appear la3">[ ANCIENT GRIMOIRE ]</text>
+
+  <!-- CARD 4 CONTENT: Design -->
+  <text x="626" y="42" text-anchor="middle" font-size="28" class="icon-pulse" style="animation-delay:0.9s">🎨</text>
+  <text x="626" y="68" text-anchor="middle" font-size="11" fill="#7c5cff" letter-spacing="1" class="label-appear la4">DESIGN</text>
+  <text x="626" y="86" text-anchor="middle" font-size="10" fill="#7c5cff" class="label-appear la4">Figma / Systems</text>
+  <rect x="560" y="100" width="128" height="5" rx="2" fill="#0a2040"/>
+  <rect x="560" y="100" height="5" rx="2" fill="url(#bar4)" class="bar-fill-4" style="--w:118px"/>
+  <text x="560" y="122" font-size="9" fill="#6b7280" class="label-appear la4">UI Architecture</text>
+  <rect x="560" y="128" width="128" height="5" rx="2" fill="#0a2040"/>
+  <rect x="560" y="128" height="5" rx="2" fill="url(#bar4)" class="bar-fill-4" style="--w:112px"/>
+  <text x="560" y="150" font-size="9" fill="#6b7280" class="label-appear la4">WebGL / Three.js</text>
+  <rect x="560" y="156" width="128" height="5" rx="2" fill="#0a2040"/>
+  <rect x="560" y="156" height="5" rx="2" fill="url(#bar4)" class="bar-fill-4" style="--w:90px"/>
+  <text x="626" y="182" text-anchor="middle" font-size="9" fill="#7c5cff" opacity="0.6" class="label-appear la4">[ MASTER CLASS ]</text>
+
+  <!-- CARD 5 CONTENT: Infra -->
+  <text x="810" y="42" text-anchor="middle" font-size="28" class="icon-pulse" style="animation-delay:1.2s">🚀</text>
+  <text x="810" y="68" text-anchor="middle" font-size="11" fill="#ff8c42" letter-spacing="1" class="label-appear la5">INFRA</text>
+  <text x="810" y="86" text-anchor="middle" font-size="10" fill="#ff8c42" class="label-appear la5">Vercel / Edge</text>
+  <rect x="740" y="100" width="136" height="5" rx="2" fill="#0a2040"/>
+  <rect x="740" y="100" height="5" rx="2" fill="url(#bar5)" class="bar-fill-5" style="--w:130px"/>
+  <text x="740" y="122" font-size="9" fill="#6b7280" class="label-appear la5">Git / CI/CD</text>
+  <rect x="740" y="128" width="136" height="5" rx="2" fill="#0a2040"/>
+  <rect x="740" y="128" height="5" rx="2" fill="url(#bar5)" class="bar-fill-5" style="--w:118px"/>
+  <text x="740" y="150" font-size="9" fill="#6b7280" class="label-appear la5">Docker / Cloud</text>
+  <rect x="740" y="156" width="136" height="5" rx="2" fill="#0a2040"/>
+  <rect x="740" y="156" height="5" rx="2" fill="url(#bar5)" class="bar-fill-5" style="--w:100px"/>
+  <text x="810" y="182" text-anchor="middle" font-size="9" fill="#ff8c42" opacity="0.6" class="label-appear la5">[ DEPLOYED ]</text>
+</svg>
