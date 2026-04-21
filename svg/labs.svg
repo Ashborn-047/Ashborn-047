@@ -96,7 +96,7 @@
     <!-- Progress bar -->
     <rect x="680" y="35" width="140" height="6" rx="3" fill="#1a2a3a"/>
     <rect x="680" y="35" width="110" height="6" rx="3" class="accent">
-      <animate attributeName="width" values="0;110;80;110" dur="4s" infinite />
+      <animate attributeName="width" values="0;110;80;110" dur="4s" repeatCount="indefinite" />
     </rect>
   </g>
 

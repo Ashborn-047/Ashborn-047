@@ -56,7 +56,7 @@
     <text y="180">Booting neural-subsystems... [ OK ]</text>
     <text y="205">Injecting creative-fluid...   [ OK ]</text>
     
-    <text y="235"><tspan class="kw">$&gt; </tspan>await next_innovation()<tspan class="blink" class="accent"> █</tspan></text>
+    <text y="235"><tspan class="kw">$&gt; </tspan>await next_innovation()<tspan class="blink accent"> █</tspan></text>
   </g>
 
   <!-- Frame Glow -->
