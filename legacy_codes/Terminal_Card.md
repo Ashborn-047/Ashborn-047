@@ -1,9 +1,7 @@
 <svg width="700" height="340" viewBox="0 0 700 340" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
-      /* GitHub Font Compatibility */
-      text { font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, monospace; }
-      .mono { font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, monospace; }
+      @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;display=swap');
 
       .line1  { animation: appear 0.1s 0.5s forwards;  opacity: 0; }
       .line2  { animation: appear 0.1s 1.2s forwards;  opacity: 0; }
@@ -72,10 +70,10 @@
   <circle cx="62" cy="18" r="5" fill="#28c840" class="dot-pulse" style="animation-delay:0.6s"/>
 
   <!-- Terminal title -->
-  <text x="350" y="23" text-anchor="middle" font-size="12" fill="#4da6ff" letter-spacing="2" class="mono">ashborn@matrix:~</text>
+  <text x="350" y="23" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="12" fill="#4da6ff" letter-spacing="2">ashborn@matrix:~</text>
 
   <!-- Terminal content -->
-  <g font-size="13.5" class="mono">
+  <g font-family="'Share Tech Mono', monospace" font-size="13.5">
 
     <!-- Line 1: prompt + command -->
     <text x="24" y="68" class="line1">

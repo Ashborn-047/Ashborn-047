@@ -1,10 +1,7 @@
 <svg width="900" height="280" viewBox="0 0 900 280" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
-      /* Font fallbacks for GitHub compatibility (Orbitron and Share Tech Mono are not system fonts, using clean sans/mono stacks) */
-      text { font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
-      .header-font { font-family: 'Orbitron', 'Segoe UI', sans-serif; font-weight: 700; }
-      .mono-font { font-family: 'Share Tech Mono', ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, monospace; }
+      @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;family=Orbitron:wght@700;900&amp;display=swap');
 
       /*
        * THEME ENGINE — 4 themes × 30s = 120s total loop
@@ -350,7 +347,7 @@
   <rect class="scanline" x="0" y="0" width="900" height="3" rx="1"/>
 
   <!-- ── MATRIX RAIN ── -->
-  <g font-family="monospace" font-size="11" opacity="0.22" class="mono-font">
+  <g font-family="'Share Tech Mono', monospace" font-size="11" opacity="0.22">
     <text class="rain r1"  x="25"  y="0">1</text>
     <text class="rain r2"  x="58"  y="0">0</text>
     <text class="rain r3"  x="92"  y="0">1</text>
@@ -402,52 +399,59 @@
   <rect x="750" y="16" width="132" height="18" rx="4" class="theme-badge-bg"/>
   <rect x="750" y="16" width="132" height="18" rx="4" fill="none" class="theme-badge-border"/>
   <!-- Per-theme badge labels (only one visible at a time) -->
-  <text x="816" y="29" text-anchor="middle" font-size="9" letter-spacing="1" class="label-blue mono-font"   fill="#00d4ff">◈ MIDNIGHT BLUE</text>
-  <text x="816" y="29" text-anchor="middle" font-size="9" letter-spacing="1" class="label-purple mono-font" fill="#cc44ff">◈ NEON PURPLE</text>
-  <text x="816" y="29" text-anchor="middle" font-size="9" letter-spacing="1" class="label-amber mono-font"  fill="#ffaa00">◈ AMBER GOLD</text>
-  <text x="816" y="29" text-anchor="middle" font-size="9" letter-spacing="1" class="label-teal mono-font"   fill="#00ffcc">◈ ARCTIC TEAL</text>
+  <text x="816" y="29" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="9" letter-spacing="1" class="label-blue"   fill="#00d4ff">◈ MIDNIGHT BLUE</text>
+  <text x="816" y="29" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="9" letter-spacing="1" class="label-purple" fill="#cc44ff">◈ NEON PURPLE</text>
+  <text x="816" y="29" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="9" letter-spacing="1" class="label-amber"  fill="#ffaa00">◈ AMBER GOLD</text>
+  <text x="816" y="29" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="9" letter-spacing="1" class="label-teal"   fill="#00ffcc">◈ ARCTIC TEAL</text>
 
   <!-- ── TOP LABEL ── -->
   <text x="450" y="38" text-anchor="middle"
+        font-family="'Share Tech Mono', monospace"
         font-size="10" letter-spacing="6"
-        class="top-label mono-font">
+        class="top-label">
     // ARCHITECT SYSTEM ONLINE //
   </text>
 
   <!-- ── MAIN TITLE ── -->
   <text x="450" y="132" text-anchor="middle"
-        font-size="70" letter-spacing="8"
+        font-family="'Orbitron', 'Share Tech Mono', monospace"
+        font-size="70" font-weight="900"
+        letter-spacing="8"
         fill="url(#titleGrad)"
-        class="glow-text header-font">ASHBORN</text>
+        class="glow-text">ASHBORN</text>
 
   <!-- ── DIVIDER ── -->
   <rect x="150" y="149" width="600" height="1.5" fill="url(#lineGrad)" rx="1"/>
 
   <!-- ── SUBTITLE ── -->
   <text x="450" y="180" text-anchor="middle"
+        font-family="'Share Tech Mono', monospace"
         font-size="14" letter-spacing="4"
-        class="sub-text mono-font">
+        class="sub-text">
     FRONTEND ARCHITECT  ·  AI ORCHESTRATOR
   </text>
 
   <!-- ── STATUS LINE ── -->
   <text x="450" y="218" text-anchor="middle"
+        font-family="'Share Tech Mono', monospace"
         font-size="11" letter-spacing="2" opacity="0.75"
-        class="status-text mono-font">
+        class="status-text">
     [ STATUS: ONLINE ]  [ STACK: LEGENDARY ]  [ AGENTS: DEPLOYED ]
   </text>
 
   <!-- ── CURSOR LINE ── -->
   <text x="450" y="249" text-anchor="middle"
+        font-family="'Share Tech Mono', monospace"
         font-size="13" opacity="0.85"
-        class="cursor-line mono-font">
+        class="cursor-line">
     $&gt; building the future_<tspan class="blink">█</tspan>
   </text>
 
   <!-- ── BINARY FOOTER ── -->
   <text x="450" y="268" text-anchor="middle"
+        font-family="'Share Tech Mono', monospace"
         font-size="8" letter-spacing="3"
-        fill="#0a2040" opacity="0.7" class="mono-font">
+        fill="#0a2040" opacity="0.7">
     01000001 01010011 01001000 01000010 01001111 01010010 01001110
   </text>
 

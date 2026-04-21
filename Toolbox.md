@@ -1,0 +1,159 @@
+<svg width="900" height="220" viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;family=Orbitron:wght@600&amp;display=swap');
+
+      /* Independent — 110s, 7s offset */
+      .bg { animation: bgC 110s 7s steps(1) infinite; }
+      @keyframes bgC { 0%{fill:#020818;} 25%{fill:#0d0418;} 50%{fill:#120a00;} 75%{fill:#001412;} }
+
+      .grid-line { animation: gridC 110s 7s steps(1) infinite; }
+      @keyframes gridC { 0%{stroke:#0a2040;} 25%{stroke:#2a0a40;} 50%{stroke:#2a1500;} 75%{stroke:#003830;} }
+
+      .border-frame { animation: borderC 110s 7s steps(1) infinite, bPulse 3s ease-in-out infinite alternate; }
+      @keyframes borderC { 0%{stroke:#0d3a6e;} 25%{stroke:#4a1570;} 50%{stroke:#5a3000;} 75%{stroke:#005540;} }
+      @keyframes bPulse { from{stroke-opacity:.3;} to{stroke-opacity:1;} }
+
+      .accent-fill  { animation: accentF 110s 7s steps(1) infinite; }
+      .accent-stroke { animation: accentS 110s 7s steps(1) infinite; }
+      .accent-s-pulse { animation: accentS 110s 7s steps(1) infinite, bPulse 3s ease-in-out infinite alternate; }
+      @keyframes accentF { 0%{fill:#00d4ff;} 25%{fill:#cc44ff;} 50%{fill:#ffaa00;} 75%{fill:#00ffcc;} }
+      @keyframes accentS { 0%{stroke:#00d4ff;} 25%{stroke:#cc44ff;} 50%{stroke:#ffaa00;} 75%{stroke:#00ffcc;} }
+
+      .header-text { animation: hC 110s 7s steps(1) infinite, hGlow 3s ease-in-out infinite alternate; }
+      @keyframes hC { 0%{fill:#00d4ff;} 25%{fill:#cc44ff;} 50%{fill:#ffaa00;} 75%{fill:#00ffcc;} }
+      @keyframes hGlow { from{filter:drop-shadow(0 0 4px currentColor);} to{filter:drop-shadow(0 0 14px currentColor);} }
+
+      /* Card glow — each card has slightly different glow color */
+      .card-bg { animation: cardBgC 110s 7s steps(1) infinite; }
+      @keyframes cardBgC { 0%{fill:#040f20;} 25%{fill:#0e0420;} 50%{fill:#180c00;} 75%{fill:#001c18;} }
+
+      .card-border-1 { animation: accentS 110s 7s steps(1) infinite, cGlow 2.6s ease-in-out infinite alternate; }
+      .card-border-2 { animation: accentS 110s 7s steps(1) infinite, cGlow 3.2s ease-in-out infinite alternate; }
+      .card-border-3 { animation: accentS 110s 7s steps(1) infinite, cGlow 2.9s ease-in-out infinite alternate; }
+      .card-border-4 { animation: accentS 110s 7s steps(1) infinite, cGlow 3.5s ease-in-out infinite alternate; }
+      .card-border-5 { animation: accentS 110s 7s steps(1) infinite, cGlow 2.4s ease-in-out infinite alternate; }
+      @keyframes cGlow { from{stroke-opacity:.2;} to{stroke-opacity:.9;} }
+
+      .icon-pulse { animation: iPulse 2.5s ease-in-out infinite alternate; }
+      @keyframes iPulse { from{opacity:.7; transform:scale(1);} to{opacity:1; transform:scale(1.1);} }
+
+      .card-appear-1 { animation: cAppear .5s .1s ease-out both; }
+      .card-appear-2 { animation: cAppear .5s .25s ease-out both; }
+      .card-appear-3 { animation: cAppear .5s .4s ease-out both; }
+      .card-appear-4 { animation: cAppear .5s .55s ease-out both; }
+      .card-appear-5 { animation: cAppear .5s .7s ease-out both; }
+      @keyframes cAppear { from{opacity:0; transform:translateY(8px);} to{opacity:1; transform:translateY(0);} }
+
+      .card-label { animation: accentF 110s 7s steps(1) infinite; font-family:'Orbitron', monospace; font-size:10px; font-weight:600; letter-spacing:1px; }
+
+      .scanline { animation: accentF 110s 7s steps(1) infinite, scan 9s linear infinite; }
+      @keyframes scan { 0%{transform:translateY(-4px);opacity:.03;} 100%{transform:translateY(224px);opacity:.03;} }
+
+      .bracket-ping { animation: accentF 110s 7s steps(1) infinite, ping 2s ease-out infinite; }
+      @keyframes ping { 0%{r:3;opacity:1;} 100%{r:10;opacity:0;} }
+
+      .badge-bg { animation: badgeBgC 110s 7s steps(1) infinite; }
+      @keyframes badgeBgC { 0%{fill:#001830;} 25%{fill:#1a0030;} 50%{fill:#1e1000;} 75%{fill:#002820;} }
+      .b0{animation:sB0 110s 7s steps(1) infinite;} @keyframes sB0{0%{opacity:1;}25%,100%{opacity:0;}}
+      .b1{animation:sB1 110s 7s steps(1) infinite;} @keyframes sB1{25%{opacity:1;}0%,50%,100%{opacity:0;}}
+      .b2{animation:sB2 110s 7s steps(1) infinite;} @keyframes sB2{50%{opacity:1;}0%,25%,75%,100%{opacity:0;}}
+      .b3{animation:sB3 110s 7s steps(1) infinite;} @keyframes sB3{75%,99%{opacity:1;}0%,50%,100%{opacity:0;}}
+    </style>
+  </defs>
+
+  <rect width="900" height="220" rx="10" class="bg"/>
+
+  <!-- Grid -->
+  <g stroke-width=".5" opacity=".4" class="grid-line">
+    <line x1="0" y1="55"  x2="900" y2="55"/>
+    <line x1="0" y1="140" x2="900" y2="140"/>
+    <line x1="180" y1="0" x2="180" y2="220"/>
+    <line x1="360" y1="0" x2="360" y2="220"/>
+    <line x1="540" y1="0" x2="540" y2="220"/>
+    <line x1="720" y1="0" x2="720" y2="220"/>
+  </g>
+
+  <rect class="scanline" x="0" y="0" width="900" height="3" rx="1"/>
+
+  <!-- Corner brackets -->
+  <g fill="none" stroke-width="1.2" class="accent-s-pulse">
+    <line x1="12" y1="12" x2="38" y2="12"/><line x1="12" y1="12" x2="12" y2="38"/>
+    <line x1="888" y1="12" x2="862" y2="12"/><line x1="888" y1="12" x2="888" y2="38"/>
+    <line x1="12" y1="208" x2="38" y2="208"/><line x1="12" y1="208" x2="12" y2="182"/>
+    <line x1="888" y1="208" x2="862" y2="208"/><line x1="888" y1="208" x2="888" y2="182"/>
+  </g>
+  <circle cx="12"  cy="12"  r="3" class="bracket-ping" style="animation-delay:0s,0s"/>
+  <circle cx="888" cy="12"  r="3" class="bracket-ping" style="animation-delay:0s,.6s"/>
+  <circle cx="12"  cy="208" r="3" class="bracket-ping" style="animation-delay:0s,1.2s"/>
+  <circle cx="888" cy="208" r="3" class="bracket-ping" style="animation-delay:0s,1.8s"/>
+
+  <!-- Header -->
+  <text x="26" y="40" font-family="'Orbitron', monospace" font-size="15" font-weight="600" letter-spacing="2" class="header-text">🧰 THE HIDDEN TOOLBOX</text>
+
+  <!-- Theme badge -->
+  <rect x="726" y="18" width="148" height="18" rx="4" class="badge-bg"/>
+  <rect x="726" y="18" width="148" height="18" rx="4" fill="none" class="accent-stroke" stroke-width=".8"/>
+  <text x="800" y="31" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="9" letter-spacing="1" class="b0" fill="#00d4ff">◈ MIDNIGHT BLUE</text>
+  <text x="800" y="31" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="9" letter-spacing="1" class="b1" fill="#cc44ff">◈ NEON PURPLE</text>
+  <text x="800" y="31" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="9" letter-spacing="1" class="b2" fill="#ffaa00">◈ AMBER GOLD</text>
+  <text x="800" y="31" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="9" letter-spacing="1" class="b3" fill="#00ffcc">◈ ARCTIC TEAL</text>
+
+  <line x1="26" y1="50" x2="874" y2="50" stroke-width="1" class="accent-stroke" opacity=".35"/>
+
+  <!-- 5 Tool Cards -->
+  <!-- Card 1: Figma -->
+  <rect x="26"  y="62" width="158" height="140" rx="8" class="card-bg card-appear-1"/>
+  <rect x="26"  y="62" width="158" height="140" rx="8" fill="none" stroke-width="1" class="card-border-1"/>
+  <text x="105" y="100" text-anchor="middle" font-size="28" class="icon-pulse" style="animation-delay:.0s">🎨</text>
+  <text x="105" y="120" text-anchor="middle" class="card-label">FIGMA</text>
+  <line x1="46" y1="126" x2="164" y2="126" stroke-width=".5" class="accent-stroke" opacity=".3"/>
+  <text x="105" y="142" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="10" fill="#5a7a8a">Hi-fi prototyping</text>
+  <text x="105" y="158" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="10" fill="#5a7a8a">before line 1 of code</text>
+  <text x="105" y="194" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="9" class="accent-fill" opacity=".7">[ DESIGN ]</text>
+
+  <!-- Card 2: Cursor -->
+  <rect x="196" y="62" width="158" height="140" rx="8" class="card-bg card-appear-2"/>
+  <rect x="196" y="62" width="158" height="140" rx="8" fill="none" stroke-width="1" class="card-border-2"/>
+  <text x="275" y="100" text-anchor="middle" font-size="28" class="icon-pulse" style="animation-delay:.2s">⚡</text>
+  <text x="275" y="120" text-anchor="middle" class="card-label">CURSOR</text>
+  <line x1="216" y1="126" x2="334" y2="126" stroke-width=".5" class="accent-stroke" opacity=".3"/>
+  <text x="275" y="142" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="10" fill="#5a7a8a">AI-native editor</text>
+  <text x="275" y="158" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="10" fill="#5a7a8a">pair-prog at its best</text>
+  <text x="275" y="194" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="9" class="accent-fill" opacity=".7">[ EDITOR ]</text>
+
+  <!-- Card 3: PostgreSQL -->
+  <rect x="366" y="62" width="168" height="140" rx="8" class="card-bg card-appear-3"/>
+  <rect x="366" y="62" width="168" height="140" rx="8" fill="none" stroke-width="1" class="card-border-3"/>
+  <text x="450" y="100" text-anchor="middle" font-size="28" class="icon-pulse" style="animation-delay:.4s">🗄️</text>
+  <text x="450" y="120" text-anchor="middle" class="card-label">POSTGRESQL</text>
+  <line x1="386" y1="126" x2="514" y2="126" stroke-width=".5" class="accent-stroke" opacity=".3"/>
+  <text x="450" y="142" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="10" fill="#5a7a8a">Robust, relational</text>
+  <text x="450" y="158" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="10" fill="#5a7a8a">relentlessly reliable</text>
+  <text x="450" y="194" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="9" class="accent-fill" opacity=".7">[ DATABASE ]</text>
+
+  <!-- Card 4: Vercel -->
+  <rect x="546" y="62" width="158" height="140" rx="8" class="card-bg card-appear-4"/>
+  <rect x="546" y="62" width="158" height="140" rx="8" fill="none" stroke-width="1" class="card-border-4"/>
+  <text x="625" y="100" text-anchor="middle" font-size="28" class="icon-pulse" style="animation-delay:.6s">🚀</text>
+  <text x="625" y="120" text-anchor="middle" class="card-label">VERCEL</text>
+  <line x1="566" y1="126" x2="684" y2="126" stroke-width=".5" class="accent-stroke" opacity=".3"/>
+  <text x="625" y="142" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="10" fill="#5a7a8a">Edge deployments</text>
+  <text x="625" y="158" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="10" fill="#5a7a8a">feels like cheating</text>
+  <text x="625" y="194" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="9" class="accent-fill" opacity=".7">[ DEPLOY ]</text>
+
+  <!-- Card 5: Claude API -->
+  <rect x="716" y="62" width="158" height="140" rx="8" class="card-bg card-appear-5"/>
+  <rect x="716" y="62" width="158" height="140" rx="8" fill="none" stroke-width="1" class="card-border-5"/>
+  <text x="795" y="100" text-anchor="middle" font-size="28" class="icon-pulse" style="animation-delay:.8s">🤖</text>
+  <text x="795" y="120" text-anchor="middle" class="card-label">CLAUDE API</text>
+  <line x1="736" y1="126" x2="854" y2="126" stroke-width=".5" class="accent-stroke" opacity=".3"/>
+  <text x="795" y="142" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="10" fill="#5a7a8a">Reasoning layer</text>
+  <text x="795" y="158" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="10" fill="#5a7a8a">behind every feature</text>
+  <text x="795" y="194" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="9" class="accent-fill" opacity=".7">[ AI CORE ]</text>
+
+  <!-- Quote -->
+  <text x="450" y="214" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="10" fill="#2a4a5a" font-style="italic">"The best tool disappears into the workflow."</text>
+
+  <rect x="2" y="2" width="896" height="216" rx="9" fill="none" stroke-width="1.5" class="border-frame"/>
+</svg>

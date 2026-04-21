@@ -1,9 +1,7 @@
 <svg width="900" height="60" viewBox="0 0 900 60" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
-      /* GitHub Font Compatibility */
-      text { font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, monospace; }
-      .mono-font { font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, monospace; }
+      @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;display=swap');
 
       .dot-on {
         animation: ondot 2s ease-in-out infinite;
@@ -34,6 +32,14 @@
         from { stroke-opacity: 0.3; }
         to   { stroke-opacity: 0.9; }
       }
+
+      .progress-bar {
+        animation: progressfill 3s 0.5s ease-out forwards;
+        width: 0;
+      }
+      @keyframes progressfill {
+        to { width: var(--pw); }
+      }
     </style>
     <linearGradient id="statusBg" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%"   stop-color="#040d1e"/>
@@ -57,31 +63,27 @@
 
   <!-- Status 1: Online -->
   <circle cx="30" cy="30" r="4" fill="#00ff88" class="dot-on"/>
-  <text x="44" y="26" font-size="9" fill="#6b7280" class="slide-in si1 mono-font">STATUS</text>
-  <text x="44" y="42" font-size="12" fill="#00ff88" class="slide-in si1 mono-font">ONLINE</text>
+  <text x="44" y="26" font-family="'Share Tech Mono', monospace" font-size="9" fill="#6b7280" class="slide-in si1">STATUS</text>
+  <text x="44" y="42" font-family="'Share Tech Mono', monospace" font-size="12" fill="#00ff88" class="slide-in si1">ONLINE</text>
 
   <!-- Status 2: Current focus -->
-  <text x="220" y="26" font-size="9" fill="#6b7280" class="slide-in si2 mono-font">CURRENT MISSION</text>
-  <text x="220" y="42" font-size="11" fill="#00d4ff" class="slide-in si2 mono-font">AI Agent Systems</text>
+  <text x="220" y="26" font-family="'Share Tech Mono', monospace" font-size="9" fill="#6b7280" class="slide-in si2">CURRENT MISSION</text>
+  <text x="220" y="42" font-family="'Share Tech Mono', monospace" font-size="11" fill="#00d4ff" class="slide-in si2">AI Agent Systems</text>
 
   <!-- Status 3: Build progress -->
-  <text x="420" y="22" font-size="9" fill="#6b7280" class="slide-in si3 mono-font">BUILD PROGRESS</text>
+  <text x="420" y="22" font-family="'Share Tech Mono', monospace" font-size="9" fill="#6b7280" class="slide-in si3">BUILD PROGRESS</text>
   <rect x="420" y="28" width="160" height="6" rx="3" fill="#0a2040"/>
-  <rect x="420" y="28" width="0" height="6" rx="3" fill="url(#pbar)">
-    <animate attributeName="width" from="0" to="136" dur="3s" begin="0.5s" fill="freeze" />
-  </rect>
-  <text x="420" y="48" font-size="9" fill="#4da6ff" class="slide-in si3 mono-font">85% — Vibe→Code Pipeline</text>
+  <rect x="420" y="28" height="6" rx="3" fill="url(#pbar)" class="progress-bar" style="--pw:136px"/>
+  <text x="420" y="48" font-family="'Share Tech Mono', monospace" font-size="9" fill="#4da6ff" class="slide-in si3">85% — Vibe→Code Pipeline</text>
 
   <!-- Status 4: Coffee -->
-  <text x="620" y="26" font-size="9" fill="#6b7280" class="slide-in si4 mono-font">COFFEE LEVEL</text>
+  <text x="620" y="26" font-family="'Share Tech Mono', monospace" font-size="9" fill="#6b7280" class="slide-in si4">COFFEE LEVEL</text>
   <rect x="620" y="32" width="120" height="6" rx="3" fill="#0a2040"/>
-  <rect x="620" y="32" width="0" height="6" rx="3" fill="#ff8c42">
-     <animate attributeName="width" from="0" to="40" dur="3s" begin="0.5s" fill="freeze" />
-  </rect>
-  <text x="620" y="48" font-size="9" fill="#ff8c42" class="slide-in si4 mono-font">CRITICAL ☕</text>
+  <rect x="620" y="32" height="6" rx="3" fill="#ff8c42" class="progress-bar" style="--pw:40px"/>
+  <text x="620" y="48" font-family="'Share Tech Mono', monospace" font-size="9" fill="#ff8c42" class="slide-in si4">CRITICAL ☕</text>
 
   <!-- Status 5: Open to collab -->
   <circle cx="778" cy="22" r="4" fill="#00d4ff" class="dot-on" style="animation-delay:1s"/>
-  <text x="792" y="26" font-size="9" fill="#6b7280" class="slide-in si5 mono-font">COLLAB</text>
-  <text x="778" y="42" font-size="11" fill="#4da6ff" class="slide-in si5 mono-font">OPEN</text>
+  <text x="792" y="26" font-family="'Share Tech Mono', monospace" font-size="9" fill="#6b7280" class="slide-in si5">COLLAB</text>
+  <text x="778" y="42" font-family="'Share Tech Mono', monospace" font-size="11" fill="#4da6ff" class="slide-in si5">OPEN</text>
 </svg>

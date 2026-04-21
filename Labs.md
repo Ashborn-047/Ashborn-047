@@ -1,0 +1,171 @@
+<svg width="900" height="280" viewBox="0 0 900 280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;family=Orbitron:wght@600&amp;display=swap');
+
+      /* Independent — 85s cycle, 43s offset */
+      .bg { animation: bgC 85s 43s steps(1) infinite; }
+      @keyframes bgC { 0%{fill:#020818;} 25%{fill:#0d0418;} 50%{fill:#120a00;} 75%{fill:#001412;} }
+
+      .grid-line { animation: gridC 85s 43s steps(1) infinite; }
+      @keyframes gridC { 0%{stroke:#0a2040;} 25%{stroke:#2a0a40;} 50%{stroke:#2a1500;} 75%{stroke:#003830;} }
+
+      .border-frame { animation: borderC 85s 43s steps(1) infinite, bPulse 2.8s ease-in-out infinite alternate; }
+      @keyframes borderC { 0%{stroke:#0d3a6e;} 25%{stroke:#4a1570;} 50%{stroke:#5a3000;} 75%{stroke:#005540;} }
+      @keyframes bPulse { from{stroke-opacity:.3;} to{stroke-opacity:1;} }
+
+      .accent-fill { animation: accentF 85s 43s steps(1) infinite; }
+      @keyframes accentF { 0%{fill:#00d4ff;} 25%{fill:#cc44ff;} 50%{fill:#ffaa00;} 75%{fill:#00ffcc;} }
+
+      .accent-stroke { animation: accentS 85s 43s steps(1) infinite; }
+      @keyframes accentS { 0%{stroke:#00d4ff;} 25%{stroke:#cc44ff;} 50%{stroke:#ffaa00;} 75%{stroke:#00ffcc;} }
+
+      .header-text { animation: headerC 85s 43s steps(1) infinite, hGlow 3s ease-in-out infinite alternate; }
+      @keyframes headerC { 0%{fill:#00d4ff;} 25%{fill:#cc44ff;} 50%{fill:#ffaa00;} 75%{fill:#00ffcc;} }
+      @keyframes hGlow { from{filter:drop-shadow(0 0 4px currentColor);} to{filter:drop-shadow(0 0 14px currentColor);} }
+
+      /* Status dot colors */
+      .dot-active { fill: #00ff88; animation: dotPulse 1.8s ease-in-out infinite; }
+      .dot-brew   { fill: #ffaa00; animation: dotPulse 2.2s ease-in-out infinite .4s; }
+      .dot-queue  { fill: #4a5568; }
+      @keyframes dotPulse { 0%,100%{r:5; opacity:1;} 50%{r:7; opacity:.6;} }
+
+      /* Row hover effect — shimmer in on load */
+      .row-1 { animation: rowSlide .6s .2s ease-out both; }
+      .row-2 { animation: rowSlide .6s .4s ease-out both; }
+      .row-3 { animation: rowSlide .6s .6s ease-out both; }
+      .row-4 { animation: rowSlide .6s .8s ease-out both; }
+      @keyframes rowSlide { from{opacity:0; transform:translateX(-12px);} to{opacity:1; transform:translateX(0);} }
+
+      .row-bg { animation: rowBgC 85s 43s steps(1) infinite; }
+      @keyframes rowBgC { 0%{fill:#040f20;} 25%{fill:#0e0420;} 50%{fill:#180c00;} 75%{fill:#001c18;} }
+
+      .row-bg-alt { animation: rowBgAlt 85s 43s steps(1) infinite; }
+      @keyframes rowBgAlt { 0%{fill:#060e1c;} 25%{fill:#10061c;} 50%{fill:#140a00;} 75%{fill:#001814;} }
+
+      /* Progress bars */
+      .pbar-track { fill: #0a1428; }
+      .pbar-fill-1 { animation: accentF 85s 43s steps(1) infinite, pFill1 2s .5s ease-out both; }
+      .pbar-fill-2 { animation: accentF 85s 43s steps(1) infinite, pFill2 2s .7s ease-out both; }
+      .pbar-fill-3 { animation: accentF 85s 43s steps(1) infinite, pFill3 2s .9s ease-out both; }
+      .pbar-fill-4 { animation: accentF 85s 43s steps(1) infinite, pFill4 2s 1.1s ease-out both; }
+      @keyframes pFill1 { from{width:0;} to{width:92px;} }
+      @keyframes pFill2 { from{width:0;} to{width:78px;} }
+      @keyframes pFill3 { from{width:0;} to{width:55px;} }
+      @keyframes pFill4 { from{width:0;} to{width:30px;} }
+
+      .scanline { animation: accentF 85s 43s steps(1) infinite, scan 8s linear infinite; }
+      @keyframes scan { 0%{transform:translateY(-4px);opacity:.03;} 50%{opacity:.06;} 100%{transform:translateY(284px);opacity:.03;} }
+
+      .bracket-ping { animation: accentF 85s 43s steps(1) infinite, ping 2s ease-out infinite; }
+      @keyframes ping { 0%{r:3;opacity:1;} 100%{r:10;opacity:0;} }
+
+      .accent-s-pulse { animation: accentS 85s 43s steps(1) infinite, bPulse 2.8s ease-in-out infinite alternate; }
+
+      .badge-bg { animation: badgeBgC 85s 43s steps(1) infinite; }
+      @keyframes badgeBgC { 0%{fill:#001830;} 25%{fill:#1a0030;} 50%{fill:#1e1000;} 75%{fill:#002820;} }
+      .b0{animation:sB0 85s 43s steps(1) infinite;} @keyframes sB0{0%{opacity:1;}25%,100%{opacity:0;}}
+      .b1{animation:sB1 85s 43s steps(1) infinite;} @keyframes sB1{25%{opacity:1;}0%,50%,100%{opacity:0;}}
+      .b2{animation:sB2 85s 43s steps(1) infinite;} @keyframes sB2{50%{opacity:1;}0%,25%,75%,100%{opacity:0;}}
+      .b3{animation:sB3 85s 43s steps(1) infinite;} @keyframes sB3{75%,99%{opacity:1;}0%,50%,100%{opacity:0;}}
+    </style>
+  </defs>
+
+  <rect width="900" height="280" rx="10" class="bg"/>
+
+  <!-- Grid -->
+  <g stroke-width=".5" opacity=".4" class="grid-line">
+    <line x1="0" y1="55"  x2="900" y2="55"/>
+    <line x1="0" y1="110" x2="900" y2="110"/>
+    <line x1="0" y1="165" x2="900" y2="165"/>
+    <line x1="0" y1="220" x2="900" y2="220"/>
+    <line x1="200" y1="0" x2="200" y2="280"/>
+    <line x1="580" y1="0" x2="580" y2="280"/>
+    <line x1="760" y1="0" x2="760" y2="280"/>
+  </g>
+
+  <rect class="scanline" x="0" y="0" width="900" height="3" rx="1"/>
+
+  <!-- Corner brackets -->
+  <g fill="none" stroke-width="1.2" class="accent-s-pulse">
+    <line x1="12" y1="12" x2="38" y2="12"/><line x1="12" y1="12" x2="12" y2="38"/>
+    <line x1="888" y1="12" x2="862" y2="12"/><line x1="888" y1="12" x2="888" y2="38"/>
+    <line x1="12" y1="268" x2="38" y2="268"/><line x1="12" y1="268" x2="12" y2="242"/>
+    <line x1="888" y1="268" x2="862" y2="268"/><line x1="888" y1="268" x2="888" y2="242"/>
+  </g>
+  <circle cx="12"  cy="12"  r="3" class="bracket-ping" style="animation-delay:0s,0s"/>
+  <circle cx="888" cy="12"  r="3" class="bracket-ping" style="animation-delay:0s,.5s"/>
+  <circle cx="12"  cy="268" r="3" class="bracket-ping" style="animation-delay:0s,1s"/>
+  <circle cx="888" cy="268" r="3" class="bracket-ping" style="animation-delay:0s,1.5s"/>
+
+  <!-- Header -->
+  <text x="26" y="40" font-family="'Orbitron', monospace" font-size="15" font-weight="600" letter-spacing="2" class="header-text">🧪 CURRENTLY IN THE LAB</text>
+
+  <!-- Theme badge -->
+  <rect x="726" y="18" width="148" height="18" rx="4" class="badge-bg"/>
+  <rect x="726" y="18" width="148" height="18" rx="4" fill="none" class="accent-stroke" stroke-width=".8"/>
+  <text x="800" y="31" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="9" letter-spacing="1" class="b0" fill="#00d4ff">◈ MIDNIGHT BLUE</text>
+  <text x="800" y="31" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="9" letter-spacing="1" class="b1" fill="#cc44ff">◈ NEON PURPLE</text>
+  <text x="800" y="31" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="9" letter-spacing="1" class="b2" fill="#ffaa00">◈ AMBER GOLD</text>
+  <text x="800" y="31" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="9" letter-spacing="1" class="b3" fill="#00ffcc">◈ ARCTIC TEAL</text>
+
+  <line x1="26" y1="50" x2="874" y2="50" stroke-width="1" class="accent-stroke" opacity=".35"/>
+
+  <!-- Table header -->
+  <rect x="26" y="58" width="848" height="26" rx="4" class="row-bg"/>
+  <g font-family="'Share Tech Mono', monospace" font-size="10" fill="#4a6a8a" letter-spacing="1">
+    <text x="50"  y="75">EXPERIMENT</text>
+    <text x="490" y="75">STATUS</text>
+    <text x="600" y="75">PROGRESS</text>
+    <text x="760" y="75">DESCRIPTION</text>
+  </g>
+
+  <!-- Row 1 — Multi-Agent -->
+  <rect x="26" y="86" width="848" height="44" rx="4" class="row-bg-alt row-1"/>
+  <circle cx="42" cy="108" r="5" class="dot-active"/>
+  <text x="56" y="104" font-family="'Share Tech Mono', monospace" font-size="12" fill="#e2e8f0">Multi-Agent Refactor</text>
+  <text x="56" y="120" font-family="'Share Tech Mono', monospace" font-size="10" fill="#4a6a8a">autonomous frontend migration</text>
+  <rect x="482" y="100" width="90" height="16" rx="3" fill="#003a1a"/>
+  <text x="527" y="112" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="10" fill="#00ff88">🔬 ACTIVE</text>
+  <rect x="592" y="103" width="100" height="6" rx="3" class="pbar-track"/>
+  <rect x="592" y="103" height="6" rx="3" class="pbar-fill-1"/>
+  <text x="762" y="112" font-family="'Share Tech Mono', monospace" font-size="10" fill="#5a7a9a">Agent collaboration layer</text>
+
+  <!-- Row 2 — Cinematic UI -->
+  <rect x="26" y="132" width="848" height="44" rx="4" class="row-bg row-2"/>
+  <circle cx="42" cy="154" r="5" class="dot-active" style="animation-delay:.3s"/>
+  <text x="56" y="150" font-family="'Share Tech Mono', monospace" font-size="12" fill="#e2e8f0">Cinematic UI Engine</text>
+  <text x="56" y="166" font-family="'Share Tech Mono', monospace" font-size="10" fill="#4a6a8a">WebGL + Framer Motion</text>
+  <rect x="482" y="146" width="90" height="16" rx="3" fill="#003a1a"/>
+  <text x="527" y="158" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="10" fill="#00ff88">🔬 ACTIVE</text>
+  <rect x="592" y="149" width="100" height="6" rx="3" class="pbar-track"/>
+  <rect x="592" y="149" height="6" rx="3" class="pbar-fill-2"/>
+  <text x="762" y="158" font-family="'Share Tech Mono', monospace" font-size="10" fill="#5a7a9a">Film-quality browser FX</text>
+
+  <!-- Row 3 — Vibe→Code -->
+  <rect x="26" y="178" width="848" height="44" rx="4" class="row-bg-alt row-3"/>
+  <circle cx="42" cy="200" r="5" class="dot-brew"/>
+  <text x="56" y="196" font-family="'Share Tech Mono', monospace" font-size="12" fill="#e2e8f0">Vibe → Code Pipeline</text>
+  <text x="56" y="212" font-family="'Share Tech Mono', monospace" font-size="10" fill="#4a6a8a">NLP-first UI prototyping</text>
+  <rect x="482" y="192" width="90" height="16" rx="3" fill="#2a1800"/>
+  <text x="527" y="204" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="10" fill="#ffaa00">⚗️ BREWING</text>
+  <rect x="592" y="195" width="100" height="6" rx="3" class="pbar-track"/>
+  <rect x="592" y="195" height="6" rx="3" class="pbar-fill-3"/>
+  <text x="762" y="204" font-family="'Share Tech Mono', monospace" font-size="10" fill="#5a7a9a">Vibe → component auto</text>
+
+  <!-- Row 4 — Design Tokens -->
+  <rect x="26" y="224" width="848" height="44" rx="4" class="row-bg row-4"/>
+  <circle cx="42" cy="246" r="5" class="dot-queue"/>
+  <text x="56" y="242" font-family="'Share Tech Mono', monospace" font-size="12" fill="#8892a4">AI Design Token System</text>
+  <text x="56" y="258" font-family="'Share Tech Mono', monospace" font-size="10" fill="#3a4a5a">context-aware design sys</text>
+  <rect x="482" y="238" width="90" height="16" rx="3" fill="#141820"/>
+  <text x="527" y="250" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="10" fill="#4a5568">📋 QUEUED</text>
+  <rect x="592" y="241" width="100" height="6" rx="3" class="pbar-track"/>
+  <rect x="592" y="241" height="6" rx="3" class="pbar-fill-4"/>
+  <text x="762" y="250" font-family="'Share Tech Mono', monospace" font-size="10" fill="#3a4a5a">Dynamic Claude-powered</text>
+
+  <!-- Bottom label -->
+  <text x="26" y="274" font-family="'Share Tech Mono', monospace" font-size="9" letter-spacing="2" class="accent-fill" opacity=".6">[ 2 ACTIVE  ·  1 BREWING  ·  1 QUEUED ]</text>
+
+  <rect x="2" y="2" width="896" height="276" rx="9" fill="none" stroke-width="1.5" class="border-frame"/>
+</svg>

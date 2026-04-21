@@ -1,0 +1,274 @@
+<svg width="900" height="320" viewBox="0 0 900 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;family=Orbitron:wght@600&amp;display=swap');
+
+      /* Independent cycle — offset 17s from banner so it's never in sync */
+      .bg { animation: bgC 100s 17s steps(1) infinite; }
+      @keyframes bgC {
+        0%  { fill: #020818; }
+        25% { fill: #0d0418; }
+        50% { fill: #120a00; }
+        75% { fill: #001412; }
+      }
+      .grid-line { animation: gridC 100s 17s steps(1) infinite; }
+      @keyframes gridC {
+        0%  { stroke: #0a2040; }
+        25% { stroke: #2a0a40; }
+        50% { stroke: #2a1500; }
+        75% { stroke: #003830; }
+      }
+      .border-frame { animation: borderC 100s 17s steps(1) infinite, bPulse 2.5s ease-in-out infinite alternate; }
+      @keyframes borderC {
+        0%  { stroke: #0d3a6e; }
+        25% { stroke: #4a1570; }
+        50% { stroke: #5a3000; }
+        75% { stroke: #005540; }
+      }
+      @keyframes bPulse { from { stroke-opacity:.35; } to { stroke-opacity:1; } }
+
+      .accent { animation: accentC 100s 17s steps(1) infinite; }
+      @keyframes accentC {
+        0%  { fill: #00d4ff; }
+        25% { fill: #cc44ff; }
+        50% { fill: #ffaa00; }
+        75% { fill: #00ffcc; }
+      }
+      .accent-stroke { animation: accentSC 100s 17s steps(1) infinite, bPulse 2.5s ease-in-out infinite alternate; }
+      @keyframes accentSC {
+        0%  { stroke: #00d4ff; }
+        25% { stroke: #cc44ff; }
+        50% { stroke: #ffaa00; }
+        75% { stroke: #00ffcc; }
+      }
+
+      /* Header glow */
+      .header-text { animation: headerC 100s 17s steps(1) infinite, headerGlow 3s ease-in-out infinite alternate; }
+      @keyframes headerC {
+        0%  { fill: #00d4ff; }
+        25% { fill: #cc44ff; }
+        50% { fill: #ffaa00; }
+        75% { fill: #00ffcc; }
+      }
+      @keyframes headerGlow {
+        from { filter: drop-shadow(0 0 4px currentColor); }
+        to   { filter: drop-shadow(0 0 12px currentColor); }
+      }
+
+      /* Code keyword color */
+      .kw { animation: kwC 100s 17s steps(1) infinite; }
+      @keyframes kwC {
+        0%  { fill: #4da6ff; }
+        25% { fill: #dd88ff; }
+        50% { fill: #ffcc44; }
+        75% { fill: #44ddbb; }
+      }
+
+      /* Code string color */
+      .str { animation: strC 100s 17s steps(1) infinite; }
+      @keyframes strC {
+        0%  { fill: #00ff88; }
+        25% { fill: #ff66ff; }
+        50% { fill: #ffbb44; }
+        75% { fill: #00ffaa; }
+      }
+
+      /* Code key color */
+      .key { animation: keyC 100s 17s steps(1) infinite; }
+      @keyframes keyC {
+        0%  { fill: #7c9cff; }
+        25% { fill: #cc88ff; }
+        50% { fill: #ffaa66; }
+        75% { fill: #66ddcc; }
+      }
+
+      .muted { fill: #4a5568; }
+      .white  { fill: #e2e8f0; }
+
+      /* Code block bg */
+      .code-bg { animation: codeBgC 100s 17s steps(1) infinite; }
+      @keyframes codeBgC {
+        0%  { fill: #040f20; }
+        25% { fill: #0e0420; }
+        50% { fill: #180c00; }
+        75% { fill: #001c18; }
+      }
+
+      /* Scanline */
+      .scanline { animation: accentC 100s 17s steps(1) infinite, scan 7s linear infinite; }
+      @keyframes scan {
+        0%   { transform: translateY(-4px); opacity:.03; }
+        50%  { opacity:.06; }
+        100% { transform: translateY(324px); opacity:.03; }
+      }
+
+      /* Bracket decorators */
+      .bracket-ping { animation: accentC 100s 17s steps(1) infinite, ping 2s ease-out infinite; }
+      @keyframes ping { 0% { r:3; opacity:1; } 100% { r:10; opacity:0; } }
+
+      /* Line counter */
+      .linenum { fill: #2a3a50; font-family: 'Share Tech Mono', monospace; font-size: 11px; }
+
+      /* Cursor blink */
+      .blink { animation: blinkA 1.2s step-end infinite; }
+      @keyframes blinkA { 0%,100%{opacity:1;} 50%{opacity:0;} }
+
+      /* Theme badge */
+      .badge-bg { animation: badgeBgC 100s 17s steps(1) infinite; }
+      @keyframes badgeBgC {
+        0%  { fill: #001830; }
+        25% { fill: #1a0030; }
+        50% { fill: #1e1000; }
+        75% { fill: #002820; }
+      }
+      .badge-blue   { animation: showB0 100s 17s steps(1) infinite; }
+      .badge-purple { animation: showB1 100s 17s steps(1) infinite; }
+      .badge-amber  { animation: showB2 100s 17s steps(1) infinite; }
+      .badge-teal   { animation: showB3 100s 17s steps(1) infinite; }
+      @keyframes showB0 { 0%{opacity:1;} 25%,100%{opacity:0;} }
+      @keyframes showB1 { 25%{opacity:1;} 0%,50%,100%{opacity:0;} }
+      @keyframes showB2 { 50%{opacity:1;} 0%,25%,75%,100%{opacity:0;} }
+      @keyframes showB3 { 75%,99%{opacity:1;} 0%,50%{opacity:0;} 100%{opacity:0;} }
+    </style>
+  </defs>
+
+  <!-- BG -->
+  <rect width="900" height="320" rx="10" class="bg"/>
+
+  <!-- Grid -->
+  <g stroke-width=".5" opacity=".5" class="grid-line">
+    <line x1="0" y1="60"  x2="900" y2="60"/>
+    <line x1="0" y1="120" x2="900" y2="120"/>
+    <line x1="0" y1="180" x2="900" y2="180"/>
+    <line x1="0" y1="240" x2="900" y2="240"/>
+    <line x1="0" y1="300" x2="900" y2="300"/>
+    <line x1="90" y1="0" x2="90" y2="320"/>
+    <line x1="450" y1="0" x2="450" y2="320"/>
+    <line x1="810" y1="0" x2="810" y2="320"/>
+  </g>
+
+  <!-- Scanline -->
+  <rect class="scanline" x="0" y="0" width="900" height="3" rx="1"/>
+
+  <!-- Corner brackets -->
+  <g fill="none" stroke-width="1.2" class="accent-stroke">
+    <line x1="12" y1="12" x2="38" y2="12"/><line x1="12" y1="12" x2="12" y2="38"/>
+    <line x1="888" y1="12" x2="862" y2="12"/><line x1="888" y1="12" x2="888" y2="38"/>
+    <line x1="12" y1="308" x2="38" y2="308"/><line x1="12" y1="308" x2="12" y2="282"/>
+    <line x1="888" y1="308" x2="862" y2="308"/><line x1="888" y1="308" x2="888" y2="282"/>
+  </g>
+  <circle cx="12"  cy="12"  r="3" class="bracket-ping" style="animation-delay:0s,0s"/>
+  <circle cx="888" cy="12"  r="3" class="bracket-ping" style="animation-delay:0s,0.6s"/>
+  <circle cx="12"  cy="308" r="3" class="bracket-ping" style="animation-delay:0s,1.2s"/>
+  <circle cx="888" cy="308" r="3" class="bracket-ping" style="animation-delay:0s,1.8s"/>
+
+  <!-- Section header -->
+  <text x="26" y="44" font-family="'Orbitron', monospace" font-size="15" font-weight="600" letter-spacing="2" class="header-text">🏗 ARCHITECTURE PHILOSOPHY</text>
+
+  <!-- Theme badge -->
+  <rect x="730" y="20" width="148" height="18" rx="4" class="badge-bg"/>
+  <rect x="730" y="20" width="148" height="18" rx="4" fill="none" class="accent-stroke" stroke-width=".8"/>
+  <text x="804" y="33" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="9" letter-spacing="1" class="badge-blue"   fill="#00d4ff">◈ MIDNIGHT BLUE</text>
+  <text x="804" y="33" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="9" letter-spacing="1" class="badge-purple" fill="#cc44ff">◈ NEON PURPLE</text>
+  <text x="804" y="33" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="9" letter-spacing="1" class="badge-amber"  fill="#ffaa00">◈ AMBER GOLD</text>
+  <text x="804" y="33" text-anchor="middle" font-family="'Share Tech Mono', monospace" font-size="9" letter-spacing="1" class="badge-teal"   fill="#00ffcc">◈ ARCTIC TEAL</text>
+
+  <!-- Divider under header -->
+  <line x1="26" y1="54" x2="874" y2="54" stroke-width="1" class="accent-stroke" opacity=".4"/>
+
+  <!-- Code block bg -->
+  <rect x="26" y="64" width="848" height="230" rx="6" class="code-bg"/>
+  <rect x="26" y="64" width="848" height="230" rx="6" fill="none" class="accent-stroke" stroke-width=".8" opacity=".4"/>
+
+  <!-- Line numbers -->
+  <g class="linenum">
+    <text x="46" y="92">1</text>
+    <text x="46" y="114">2</text>
+    <text x="46" y="136">3</text>
+    <text x="46" y="158">4</text>
+    <text x="46" y="180">5</text>
+    <text x="46" y="202">6</text>
+    <text x="46" y="224">7</text>
+    <text x="46" y="246">8</text>
+    <text x="46" y="268">9</text>
+  </g>
+
+  <!-- Vertical line number separator -->
+  <line x1="68" y1="66" x2="68" y2="292" stroke="#1a2a3a" stroke-width="1"/>
+
+  <!-- Code content -->
+  <g font-family="'Share Tech Mono', monospace" font-size="13.5">
+    <!-- line 1: const philosophy = { -->
+    <text x="82" y="92">
+      <tspan class="kw">const </tspan>
+      <tspan class="white">philosophy </tspan>
+      <tspan class="muted">= {</tspan>
+    </text>
+
+    <!-- line 2 -->
+    <text x="82" y="114">
+      <tspan class="muted">  </tspan>
+      <tspan class="key">principle_1 </tspan>
+      <tspan class="muted">: </tspan>
+      <tspan class="str">"Modular First    "</tspan>
+      <tspan class="muted"> — </tspan>
+      <tspan fill="#8892a4">If it can't be reused, rethink it.</tspan>
+      <tspan class="muted">"</tspan>
+    </text>
+
+    <!-- line 3 -->
+    <text x="82" y="136">
+      <tspan class="muted">  </tspan>
+      <tspan class="key">principle_2 </tspan>
+      <tspan class="muted">: </tspan>
+      <tspan class="str">"Type-Safe Always "</tspan>
+      <tspan class="muted"> — </tspan>
+      <tspan fill="#8892a4">Undefined behavior is a bug waiting.</tspan>
+      <tspan class="muted">"</tspan>
+    </text>
+
+    <!-- line 4 -->
+    <text x="82" y="158">
+      <tspan class="muted">  </tspan>
+      <tspan class="key">principle_3 </tspan>
+      <tspan class="muted">: </tspan>
+      <tspan class="str">"AI as Multiplier  "</tspan>
+      <tspan class="muted"> — </tspan>
+      <tspan fill="#8892a4">Eliminate tedious. Go deeper.</tspan>
+      <tspan class="muted">"</tspan>
+    </text>
+
+    <!-- line 5 -->
+    <text x="82" y="180">
+      <tspan class="muted">  </tspan>
+      <tspan class="key">principle_4 </tspan>
+      <tspan class="muted">: </tspan>
+      <tspan class="str">"Ship with Taste  "</tspan>
+      <tspan class="muted"> — </tspan>
+      <tspan fill="#8892a4">Works → Delightful is the job.</tspan>
+      <tspan class="muted">"</tspan>
+    </text>
+
+    <!-- line 6: closing -->
+    <text x="82" y="202"><tspan class="muted">} </tspan><tspan class="kw">as const</tspan><tspan class="muted">;</tspan></text>
+
+    <!-- line 7: blank -->
+    <!-- line 8: comment -->
+    <text x="82" y="246">
+      <tspan fill="#3a5a3a">// compiled with: elegance × scale × zero compromise</tspan>
+    </text>
+
+    <!-- line 9: prompt -->
+    <text x="82" y="268">
+      <tspan class="kw">$&gt; </tspan>
+      <tspan class="white">node architect.ts</tspan>
+      <tspan class="blink" class="accent"> █</tspan>
+    </text>
+  </g>
+
+  <!-- Bottom status -->
+  <text x="26" y="310" font-family="'Share Tech Mono', monospace" font-size="9" letter-spacing="2" class="accent" opacity=".6">[ PHILOSOPHY.TS — COMPILED ✓ ]</text>
+
+  <!-- Frame -->
+  <rect x="2" y="2" width="896" height="316" rx="9" fill="none" stroke-width="1.5" class="border-frame"/>
+</svg>
