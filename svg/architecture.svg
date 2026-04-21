@@ -165,8 +165,8 @@
   <circle cx="12"  cy="308" r="3" class="bracket-ping" style="animation-delay:0s,1.2s"/>
   <circle cx="888" cy="308" r="3" class="bracket-ping" style="animation-delay:0s,1.8s"/>
 
-  <!-- Section header -->
-  <text x="26" y="44" font-size="15" letter-spacing="2" class="header-text header-f">🏗 ARCHITECTURE PHILOSOPHY</text>
+  <!-- Header -->
+  <text x="26" y="40" font-size="15" letter-spacing="2" class="header-text header-f">🏛️ SYSTEM ARCHITECTURE — V2.1 UNLOCK</text>
 
   <!-- Theme badge -->
   <rect x="730" y="20" width="148" height="18" rx="4" class="badge-bg"/>
