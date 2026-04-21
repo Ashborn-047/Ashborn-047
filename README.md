@@ -4,15 +4,15 @@
 
 </div>
 
-<div align="center"><img src="./svg/divider.svg" width="100%" alt=""/></div>
+<div align="center"><img src="./svg/divider-themed.svg" width="100%" alt=""/></div>
 
 <div align="center">
 
-<img src="./svg/terminal-card.svg" width="78%" alt="Terminal Profile"/>
+<img src="./svg/terminal-card.svg" width="80%" alt="Terminal Profile"/>
 
 </div>
 
-<div align="center"><img src="./svg/divider.svg" width="100%" alt=""/></div>
+<div align="center"><img src="./svg/divider-themed.svg" width="100%" alt=""/></div>
 
 ## 🌐 Skill Matrix
 
@@ -22,7 +22,7 @@
 
 </div>
 
-<div align="center"><img src="./svg/divider.svg" width="100%" alt=""/></div>
+<div align="center"><img src="./svg/divider-themed.svg" width="100%" alt=""/></div>
 
 <div align="center">
 
@@ -30,7 +30,7 @@
 
 </div>
 
-<div align="center"><img src="./svg/divider.svg" width="100%" alt=""/></div>
+<div align="center"><img src="./svg/divider-themed.svg" width="100%" alt=""/></div>
 
 <div align="center">
 
@@ -38,7 +38,7 @@
 
 </div>
 
-<div align="center"><img src="./svg/divider.svg" width="100%" alt=""/></div>
+<div align="center"><img src="./svg/divider-themed.svg" width="100%" alt=""/></div>
 
 <div align="center">
 
@@ -46,7 +46,7 @@
 
 </div>
 
-<div align="center"><img src="./svg/divider.svg" width="100%" alt=""/></div>
+<div align="center"><img src="./svg/divider-themed.svg" width="100%" alt=""/></div>
 
 <div align="center">
 
@@ -54,7 +54,7 @@
 
 </div>
 
-<div align="center"><img src="./svg/divider.svg" width="100%" alt=""/></div>
+<div align="center"><img src="./svg/divider-themed.svg" width="100%" alt=""/></div>
 
 ## 📊 Vital Statistics
 
@@ -69,7 +69,7 @@
 
 </div>
 
-<div align="center"><img src="./svg/divider.svg" width="100%" alt=""/></div>
+<div align="center"><img src="./svg/divider-themed.svg" width="100%" alt=""/></div>
 
 ## 🐍 Contribution Trail
 
@@ -81,7 +81,7 @@
   </picture>
 </div>
 
-<div align="center"><img src="./svg/divider.svg" width="100%" alt=""/></div>
+<div align="center"><img src="./svg/divider-themed.svg" width="100%" alt=""/></div>
 
 ## 🕹️ Contribution Strike
 
@@ -91,7 +91,7 @@
   <sub><i>GitHub contributions — visualized as a high-octane space mission 🚀</i></sub>
 </div>
 
-<div align="center"><img src="./svg/divider.svg" width="100%" alt=""/></div>
+<div align="center"><img src="./svg/divider-themed.svg" width="100%" alt=""/></div>
 
 ## ⚡ Live Status
 
@@ -101,15 +101,16 @@
 
 </div>
 
-<div align="center"><img src="./svg/divider.svg" width="100%" alt=""/></div>
+<div align="center"><img src="./svg/divider-themed.svg" width="100%" alt=""/></div>
 
 ## 🤝 Credits
 
-| Credit | Source |
-+|:---|:---|
-+| 🐍 Snake Expedition | [tobimey](https://github.com/tobimey) |
-+| 📜 Grimoire Format | [DenverCoder1](https://github.com/DenverCoder1) |
-+| 🚀 Space Shooter | [gh-space-shooter](https://github.com/czl9707/gh-space-shooter) |
+| Contribution | Source / Reference |
+| :--- | :--- |
+| 🐍 Snake Expedition | [tobimey](https://github.com/tobimey/github-contribution-grid-snake) |
+| 📜 Grimoire Layout | [DenverCoder1](https://github.com/DenverCoder1) |
+| 🚀 Space Shooter | [gh-space-shooter](https://github.com/czl9707/gh-space-shooter) |
+| 🧪 SVG Dynamics | [Claude](https://anthropic.com) |
 
 <div align="center">
 
