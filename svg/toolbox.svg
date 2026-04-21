@@ -1,0 +1,113 @@
+<svg width="900" height="300" viewBox="0 0 900 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      text { font-family: 'Share Tech Mono', monospace; }
+      .header-text { font-family: 'Orbitron', sans-serif; }
+
+      .bg { animation: bgC 100s 42s steps(1) infinite; }
+      @keyframes bgC {
+        0% { fill: #020818; } 25% { fill: #0d0418; } 50% { fill: #120a00; } 75% { fill: #001412; }
+      }
+      .accent { fill: #00d4ff; animation: accentC 100s 42s steps(1) infinite; }
+      @keyframes accentC {
+        0% { fill: #00d4ff; } 25% { fill: #cc44ff; } 50% { fill: #ffaa00; } 75% { fill: #00ffcc; }
+      }
+      .accent-stroke { stroke: #00d4ff; animation: accentSC 100s 42s steps(1) infinite; }
+      @keyframes accentSC {
+        0% { stroke: #00d4ff; } 25% { stroke: #cc44ff; } 50% { stroke: #ffaa00; } 75% { stroke: #00ffcc; }
+      }
+
+      .tool-tag { font-size: 11px; fill: #e2e8f0; opacity: 0.8; }
+      .tool-line { stroke: rgba(255, 255, 255, 0.1); }
+      
+      .stagger { animation: glow 2s ease-in-out infinite alternate; }
+      @keyframes glow { from { filter: drop-shadow(0 0 2px currentColor); } to { filter: drop-shadow(0 0 8px currentColor); } }
+    </style>
+  </defs>
+
+  <!-- BG -->
+  <rect width="900" height="300" rx="10" class="bg"/>
+
+  <!-- Grid Pattern -->
+  <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+    <path d="M 30 0 L 0 0 0 30" fill="none" stroke="rgba(255,255,255,0.03)" stroke-width="0.5"/>
+  </pattern>
+  <rect width="900" height="300" fill="url(#grid)" />
+
+  <!-- Header -->
+  <g transform="translate(30,30)">
+    <!-- Rocket Icon for 🚀 -->
+    <g transform="translate(0, -18) scale(0.9)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="accent stagger">
+      <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.71-2.13.09-2.91a2.18 2.18 0 0 0-3.09-.09Z"/>
+      <path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2Z"/>
+      <path d="M9 12H4s.5 5 2 5c1.17 0 2.26-.58 3-1.5M15 9V4s-5 .5-5 2c0 1.17.58 2.26 1.5 3"/>
+    </g>
+    <text x="35" y="0" font-size="18" font-weight="700" letter-spacing="3" class="header-text accent">THE HIDDEN TOOLBOX</text>
+  </g>
+
+  <!-- Column 1: Design -->
+  <g transform="translate(30, 80)">
+    <!-- Palette for 🎨 -->
+    <g transform="translate(0,0) scale(0.8)" fill="none" stroke="currentColor" stroke-width="2" class="accent">
+       <circle cx="13.5" cy="7.5" r=".5"/><circle cx="17.5" cy="10.5" r=".5"/><circle cx="8.5" cy="7.5" r=".5"/><circle cx="6.5" cy="12.5" r=".5"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.9 0 1.6-.7 1.6-1.6 0-.4-.2-.8-.5-1.1-.3-.3-.5-.7-.5-1.1 0-.9.7-1.6 1.6-1.6H17c2.8 0 5-2.2 5-5 0-5.2-4.5-9.5-10-9.5Z" />
+    </g>
+    <text x="25" y="15" font-size="14" font-weight="700" fill="#e2e8f0">AESTHETIC</text>
+    <g transform="translate(0, 30)" class="tool-tag">
+      <text x="0" y="0">Figma</text>
+      <text x="0" y="20">Framer Motion</text>
+      <text x="0" y="40">CSS3 Art</text>
+      <text x="0" y="60">SVG Forge</text>
+    </g>
+  </g>
+
+  <!-- Column 2: Backend/Ops -->
+  <g transform="translate(250, 80)">
+    <!-- Database for 🗄️ -->
+    <g transform="translate(0,0) scale(0.8)" fill="none" stroke="currentColor" stroke-width="2" class="accent">
+       <ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14c0 1.7 4 3 9 3s9-1.3 9-3V5M3 12c0 1.7 4 3 9 3s9-1.3 9-3" />
+    </g>
+    <text x="25" y="15" font-size="14" font-weight="700" fill="#e2e8f0">INFRASTRUCTURE</text>
+    <g transform="translate(0, 30)" class="tool-tag">
+      <text x="0" y="0">Vercel Edge</text>
+      <text x="0" y="20">Docker</text>
+      <text x="0" y="40">PostgreSQL</text>
+      <text x="0" y="60">GitHub Actions</text>
+    </g>
+  </g>
+
+  <!-- Column 3: Performance -->
+  <g transform="translate(470, 80)">
+    <!-- Zap for ⚡ -->
+    <g transform="translate(0,0) scale(0.8)" fill="none" stroke="currentColor" stroke-width="2" class="accent">
+       <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+    </g>
+    <text x="25" y="15" font-size="14" font-weight="700" fill="#e2e8f0">CORE ENGINE</text>
+    <g transform="translate(0, 30)" class="tool-tag">
+      <text x="0" y="0">Rust (WASM)</text>
+      <text x="0" y="20">Next.js 15</text>
+      <text x="0" y="40">Playwright</text>
+      <text x="0" y="60">Turborepo</text>
+    </g>
+  </g>
+
+  <!-- Column 4: AI/Bots -->
+  <g transform="translate(690, 80)">
+    <!-- Robot for 🤖 -->
+    <g transform="translate(0,0) scale(0.8)" fill="none" stroke="currentColor" stroke-width="2" class="accent">
+       <rect x="3" y="11" width="18" height="10" rx="2"/><circle cx="12" cy="5" r="2"/><path d="M12 7v4M8 16h.01M16 16h.01M6 11V7a3 3 0 0 1 6 0v4" />
+    </g>
+    <text x="25" y="15" font-size="14" font-weight="700" fill="#e2e8f0">INTELLIGENCE</text>
+    <g transform="translate(0, 30)" class="tool-tag">
+      <text x="0" y="0">LangChain</text>
+      <text x="0" y="20">OpenAI API</text>
+      <text x="0" y="40">Vector DB</text>
+      <text x="0" y="60">Custom Models</text>
+    </g>
+  </g>
+
+  <!-- Footer Info -->
+  <text x="30" y="260" font-size="10" fill="#4a5568">[ 34 TOOLS DETECTED — SYSTEM OPTIMIZED ]</text>
+  <rect x="30" y="270" width="840" height="1" fill="rgba(255,255,255,0.05)"/>
+  
+  <rect x="2" y="2" width="896" height="296" rx="9" fill="none" stroke-width="1.5" class="accent-stroke" opacity="0.4"/>
+</svg>

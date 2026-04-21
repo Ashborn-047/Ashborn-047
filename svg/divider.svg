@@ -1,0 +1,25 @@
+<svg width="1000" height="20" viewBox="0 0 1000 20" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .accent { stroke: #00d4ff; animation: accentSC 100s 0s steps(1) infinite; }
+      @keyframes accentSC {
+        0% { stroke: #00d4ff; } 25% { stroke: #cc44ff; } 50% { stroke: #ffaa00; } 75% { stroke: #00ffcc; }
+      }
+      .glow { filter: drop-shadow(0 0 3px currentColor); }
+      .fade { opacity: 0.3; }
+    </style>
+  </defs>
+
+  <!-- Central line -->
+  <line x1="50" y1="10" x2="450" y2="10" stroke-width="1" class="accent fade" />
+  <line x1="550" y1="10" x2="950" y2="10" stroke-width="1" class="accent fade" />
+
+  <!-- Center Diamond Icon -->
+  <g transform="translate(490, 0) scale(0.4)" fill="currentColor" class="accent glow">
+     <path d="M2.7 10.3a2.41 2.41 0 0 0 0 3.41l6.59 6.59a2.41 2.41 0 0 0 3.41 0l6.59-6.59a2.41 2.41 0 0 0 0-3.41l-6.59-6.59a2.41 2.41 0 0 0-3.41 0Z" />
+  </g>
+
+  <!-- Side dots -->
+  <circle cx="30"  cy="10" r="1.5" class="accent" />
+  <circle cx="970" cy="10" r="1.5" class="accent" />
+</svg>

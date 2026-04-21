@@ -1,114 +1,60 @@
 <div align="center">
 
-<!-- HERO BANNER — upload hero-banner.svg to your repo root -->
-<img src="./hero-banner.svg" width="100%" alt="Ashborn — Frontend Architect & AI Orchestrator"/>
+<img src="./svg/hero-banner-themed.svg" width="100%" alt="Ashborn — Frontend Architect & AI Orchestrator"/>
 
 </div>
 
----
+<div align="center"><img src="./svg/divider.svg" width="100%" alt=""/></div>
 
 <div align="center">
 
-<!-- TERMINAL CARD — upload terminal-card.svg to your repo root -->
-<img src="./terminal-card.svg" width="78%" alt="Terminal Profile Card"/>
+<img src="./svg/terminal-card.svg" width="78%" alt="Terminal Profile"/>
 
 </div>
 
----
+<div align="center"><img src="./svg/divider.svg" width="100%" alt=""/></div>
 
 ## 🌐 Skill Matrix
 
 <div align="center">
 
-<!-- SKILL CARDS — upload skill-cards.svg to your repo root -->
-<img src="./skill-cards.svg" width="100%" alt="Animated Skill Cards"/>
+<img src="./svg/skill-cards.svg" width="100%" alt="Skill Cards"/>
 
 </div>
 
----
+<div align="center"><img src="./svg/divider.svg" width="100%" alt=""/></div>
 
-## 🏗️ Architecture Philosophy
+<div align="center">
 
-```typescript
-const philosophy = {
-  principle_1 : "Modular First      — If it can't be reused, it can be rethought.",
-  principle_2 : "Type-Safe Always   — Undefined behavior is a bug waiting to be filed.",
-  principle_3 : "AI as Multiplier   — Eliminate tedious. Go deeper on what matters.",
-  principle_4 : "Ship with Taste    — The gap between 'works' and 'delightful' is the job.",
-} as const;
-```
+<img src="./svg/architecture.svg" width="100%" alt="Architecture Philosophy"/>
 
-<details>
-<summary><b>🧪 Currently in the Lab</b></summary>
+</div>
 
-<br>
+<div align="center"><img src="./svg/divider.svg" width="100%" alt=""/></div>
 
-| Experiment | Status | Description |
-|:---|:---:|:---|
-| Multi-Agent Refactor Systems | 🔬 Active | Autonomous agents collaborating on large-scale frontend migrations |
-| Cinematic UI Engine | 🔬 Active | Framer Motion + WebGL for film-quality browser experiences |
-| Vibe → Code Pipeline | ⚗️ Brewing | NLP-first UI prototyping — describe the vibe, receive the component |
-| AI-Powered Design Tokens | 📋 Queued | Claude-driven design system adapting to user context dynamically |
+<div align="center">
 
-</details>
+<img src="./svg/labs.svg" width="100%" alt="Currently in the Lab"/>
 
-<details>
-<summary><b>🧰 The Hidden Toolbox</b></summary>
+</div>
 
-<br>
+<div align="center"><img src="./svg/divider.svg" width="100%" alt=""/></div>
 
-| Tool | Use Case |
-|:---|:---|
-| **Figma** | High-fidelity prototyping before a single line of code |
-| **Cursor** | AI-native editor — pair programming at its finest |
-| **PostgreSQL** | Robust, relational, relentlessly reliable |
-| **Vercel** | Edge deployments so fast they feel like cheating |
-| **Claude API** | The reasoning layer behind every intelligent feature |
+<div align="center">
 
-> *The best tool is the one that disappears into the workflow.*
+<img src="./svg/toolbox.svg" width="100%" alt="The Hidden Toolbox"/>
 
-</details>
+</div>
 
-<details>
-<summary><b>🌲 Full Skill Tree</b></summary>
+<div align="center"><img src="./svg/divider.svg" width="100%" alt=""/></div>
 
-<br>
+<div align="center">
 
-```
-                   ┌────────────────────────────────────┐
-                   │        ⚡  HERO INITIATION          │
-                   └───────────────┬────────────────────┘
-                                   │
-          ┌────────────────────────┼────────────────────────┐
-          ▼                                                  ▼
-┌──────────────────────┐                         ┌──────────────────────┐
-│   🔮 FRONTEND FORGE  │                         │  🤖 AGENTIC MASTERY  │
-└──────────┬───────────┘                         └──────────┬───────────┘
-           │                                                │
-     ┌─────┴─────┐                                   ┌─────┴─────┐
-     ▼           ▼                                   ▼           ▼
-┌─────────┐ ┌─────────┐                        ┌─────────┐ ┌─────────┐
-│React &  │ │Tailwind │                        │ Claude  │ │ Cursor  │
-│ Next.js │ │Mastery  │                        │ Agents  │ │  Flow   │
-└─────────┘ └─────────┘                        └─────────┘ └─────────┘
-     │           │                                   │           │
-     └─────┬─────┘                                   └─────┬─────┘
-           ▼                                               ▼
-           └──────────────────┬────────────────────────────┘
-                              ▼
-                ┌─────────────────────────┐
-                │   ⚡ FULL STACK LEGEND   │
-                │      Rank: S-Tier        │
-                └─────────────┬───────────┘
-                              ▼
-                ┌─────────────────────────┐
-                │  🚀 FUTURE-PROOF WEB    │
-                └─────────────────────────┘
-```
+<img src="./svg/skill-tree.svg" width="100%" alt="Skill Tree Node Graph"/>
 
-</details>
+</div>
 
----
+<div align="center"><img src="./svg/divider.svg" width="100%" alt=""/></div>
 
 ## 📊 Vital Statistics
 
@@ -123,7 +69,7 @@ const philosophy = {
 
 </div>
 
----
+<div align="center"><img src="./svg/divider.svg" width="100%" alt=""/></div>
 
 ## 🐍 Contribution Trail
 
@@ -135,48 +81,43 @@ const philosophy = {
   </picture>
 </div>
 
----
+<div align="center"><img src="./svg/divider.svg" width="100%" alt=""/></div>
 
 ## 🕹️ Contribution Strike
 
 <div align="center">
-  <img src="game.gif" alt="Space Shooter Game" width="80%" style="border-radius:10px;"/>
+  <img src="game.gif" alt="Space Shooter" width="80%" style="border-radius:10px;"/>
   <br/>
   <sub><i>GitHub contributions — visualized as a high-octane space mission 🚀</i></sub>
 </div>
 
----
+<div align="center"><img src="./svg/divider.svg" width="100%" alt=""/></div>
 
 ## ⚡ Live Status
 
 <div align="center">
 
-<!-- STATUS BAR — upload status-bar.svg to your repo root -->
-<img src="./status-bar.svg" width="100%" alt="Live Status Bar"/>
+<img src="./svg/status-bar.svg" width="100%" alt="Live Status Bar"/>
 
 </div>
 
----
+<div align="center"><img src="./svg/divider.svg" width="100%" alt=""/></div>
 
 ## 🤝 Credits
 
 | Credit | Source |
-|:---|:---|
-| 🐍 Snake Expedition | [tobimey](https://github.com/tobimey) |
-| 📜 Grimoire Format | [DenverCoder1](https://github.com/DenverCoder1) |
-| 🚀 Space Shooter | [gh-space-shooter](https://github.com/czl9707/gh-space-shooter) |
-
----
++|:---|:---|
++| 🐍 Snake Expedition | [tobimey](https://github.com/tobimey) |
++| 📜 Grimoire Format | [DenverCoder1](https://github.com/DenverCoder1) |
++| 🚀 Space Shooter | [gh-space-shooter](https://github.com/czl9707/gh-space-shooter) |
 
 <div align="center">
+
+<br/>
 
 <img src="https://komarev.com/ghpvc/?username=Ashborn-047&label=VISITORS&color=00d4ff&style=for-the-badge" alt="Views"/>
 
 <br/><br/>
-
-```
-[ ARCHITECT STATUS: ONLINE ] [ AGENTS: DEPLOYED ] [ COFFEE: CRITICAL ]
-```
 
 *"The best code is the code that never needed to be written."*
 

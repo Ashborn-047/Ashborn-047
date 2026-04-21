@@ -1,0 +1,105 @@
+<svg width="900" height="320" viewBox="0 0 900 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      text { font-family: 'Share Tech Mono', monospace; }
+      .header-text { font-family: 'Orbitron', sans-serif; }
+
+      .bg { animation: bgC 100s 34s steps(1) infinite; }
+      @keyframes bgC {
+        0% { fill: #020818; } 25% { fill: #0d0418; } 50% { fill: #120a00; } 75% { fill: #001412; }
+      }
+      .grid-line { stroke: #0a2040; animation: gridC 100s 34s steps(1) infinite; }
+      @keyframes gridC {
+        0% { stroke: #0a2040; } 25% { stroke: #2a0a40; } 50% { stroke: #2a1500; } 75% { stroke: #003830; }
+      }
+      .accent { fill: #00d4ff; animation: accentC 100s 34s steps(1) infinite; }
+      @keyframes accentC {
+        0% { fill: #00d4ff; } 25% { fill: #cc44ff; } 50% { fill: #ffaa00; } 75% { fill: #00ffcc; }
+      }
+      .accent-stroke { stroke: #00d4ff; animation: accentSC 100s 34s steps(1) infinite; }
+      @keyframes accentSC {
+        0% { stroke: #00d4ff; } 25% { stroke: #cc44ff; } 50% { stroke: #ffaa00; } 75% { stroke: #00ffcc; }
+      }
+
+      .lab-card { fill: rgba(10, 20, 40, 0.5); stroke: #1a2a3a; }
+      .lab-card-header { fill: #00d4ff; animation: accentC 100s 34s steps(1) infinite; }
+
+      .pulse { animation: pA 2s ease-in-out infinite alternate; }
+      @keyframes pA { from { opacity: 0.4; } to { opacity: 1; } }
+
+      .glow { filter: drop-shadow(0 0 4px currentColor); }
+    </style>
+  </defs>
+
+  <!-- BG -->
+  <rect width="900" height="320" rx="10" class="bg"/>
+  <g stroke-width=".5" opacity=".3" class="grid-line">
+    <line x1="0" y1="40" x2="900" y2="40"/><line x1="0" y1="80" x2="900" y2="80"/><line x1="0" y1="120" x2="900" y2="120"/><line x1="0" y1="160" x2="900" y2="160"/><line x1="0" y1="200" x2="900" y2="200"/><line x1="0" y1="240" x2="900" y2="240"/><line x1="0" y1="280" x2="900" y2="280"/>
+    <line x1="100" y1="0" x2="100" y2="320"/><line x1="300" y1="0" x2="300" y2="320"/><line x1="500" y1="0" x2="500" y2="320"/><line x1="700" y1="0" x2="700" y2="320"/>
+  </g>
+
+  <!-- Header -->
+  <g transform="translate(30, 30)">
+    <!-- Flask Icon for 🧪 -->
+    <g transform="translate(0, -18) scale(0.9)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="accent">
+      <path d="M9 3h6"/>
+      <path d="M10 3v13.4a2.8 2.8 0 1 0 4 0V3"/>
+      <path d="M8.5 13h7"/>
+    </g>
+    <text x="35" y="0" font-size="20" font-weight="700" letter-spacing="3" class="header-text accent">CURRENTLY IN THE LAB</text>
+    <line x1="0" y1="15" x2="840" y2="15" stroke-width="2" class="accent-stroke" opacity="0.5"/>
+  </g>
+
+  <!-- Card 1: Project -->
+  <g transform="translate(30, 80)">
+    <rect width="400" height="90" rx="8" fill="#040f20" stroke="#1a2a3a"/>
+    <g class="accent">
+      <!-- Microscope Icon for 🔬 -->
+      <g transform="translate(15, 15) scale(0.8)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M6 18h8M3 22h18M14 22a7 7 0 1 0-14 0M9 14h2M12 14a3 3 0 1 1 3-3V5a2 2 0 0 1 2-2h2"/>
+      </g>
+      <text x="45" y="32" font-size="14" font-weight="600">ACTIVE PROJECT</text>
+    </g>
+    <text x="45" y="60" fill="#e2e8f0" font-size="18" font-weight="700">Neural Nexus — v2.0</text>
+    <text x="45" y="78" fill="#8892a4" font-size="11">Scalable AI Infrastructure Orchestration</text>
+    <circle cx="370" cy="25" r="4" class="accent pulse"/>
+  </g>
+
+  <!-- Card 2: Research -->
+  <g transform="translate(460, 80)">
+    <rect width="410" height="90" rx="8" fill="#040f20" stroke="#1a2a3a"/>
+    <g class="accent">
+      <!-- Beaker/Test-tube for ⚗️ -->
+      <g transform="translate(15, 15) scale(0.8)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M9 3h6M10 3v13.4a2.8 2.8 0 1 0 4 0V3M8.5 13h7"/>
+      </g>
+      <text x="45" y="32" font-size="14" font-weight="600">RESEARCH FOCUS</text>
+    </g>
+    <text x="45" y="60" fill="#e2e8f0" font-size="18" font-weight="700">Multi-Agent Swarms</text>
+    <text x="45" y="78" fill="#8892a4" font-size="11">Emergent behaviors in decentralized LLM networks</text>
+    <circle cx="380" cy="25" r="4" class="accent pulse"/>
+  </g>
+
+  <!-- Card 3: Status -->
+  <g transform="translate(30, 200)">
+    <rect width="840" height="90" rx="8" fill="#040f20" stroke="#1a2a3a"/>
+    <g class="accent">
+      <!-- Clipboard for 📋 -->
+      <g transform="translate(15, 25) scale(0.8)" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="8" y="2" width="8" height="4" rx="1" ry="1"/>
+        <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/>
+      </g>
+      <text x="45" y="42" font-size="14" font-weight="600">LATEST EXPERIMENT LOG</text>
+    </g>
+    <text x="45" y="70" fill="#00ff88" font-size="16">$&gt; Optimizing token throughput... latency reduced by 42ms [SUCCESS]</text>
+    
+    <!-- Progress bar -->
+    <rect x="680" y="35" width="140" height="6" rx="3" fill="#1a2a3a"/>
+    <rect x="680" y="35" width="110" height="6" rx="3" class="accent">
+      <animate attributeName="width" values="0;110;80;110" dur="4s" infinite />
+    </rect>
+  </g>
+
+  <!-- Border -->
+  <rect x="2" y="2" width="896" height="316" rx="9" fill="none" stroke-width="1.5" class="accent-stroke" opacity="0.5"/>
+</svg>

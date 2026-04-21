@@ -1,0 +1,115 @@
+<svg width="1000" height="300" viewBox="0 0 1000 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @font-face {
+        font-family: 'Share Tech Mono';
+        src: local('Share Tech Mono'), local('Courier New'), Courier, monospace;
+      }
+      @font-face {
+        font-family: 'Orbitron';
+        src: local('Orbitron'), local('Segoe UI'), Roboto, Helvetica, Arial, sans-serif;
+      }
+
+      .bg { animation: bgC 100s 0s steps(1) infinite; }
+      @keyframes bgC {
+        0% { fill: #020818; }
+        25% { fill: #0d0418; }
+        50% { fill: #120a00; }
+        75% { fill: #001412; }
+      }
+
+      .accent { fill: #00d4ff; animation: accentC 100s 0s steps(1) infinite; }
+      @keyframes accentC {
+        0% { fill: #00d4ff; }
+        25% { fill: #cc44ff; }
+        50% { fill: #ffaa00; }
+        75% { fill: #00ffcc; }
+      }
+
+      .text-main { 
+        font-family: 'Orbitron', sans-serif;
+        font-weight: 900;
+        letter-spacing: 15px;
+        fill: #e2e8f0;
+        filter: drop-shadow(0 0 10px rgba(0,212,255,0.3));
+        animation: glowPulse 2s ease-in-out infinite alternate;
+      }
+      @keyframes glowPulse { from { opacity: 0.8; } to { opacity: 1; } }
+
+      .text-sub {
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 16px;
+        letter-spacing: 5px;
+        fill: #4da6ff;
+        animation: accentC 100s 0s steps(1) infinite;
+      }
+
+      .grid-line { stroke: #0a2040; stroke-width: 0.5; animation: gridC 100s 0s steps(1) infinite; }
+      @keyframes gridC {
+        0% { stroke: #0a2040; }
+        25% { stroke: #2a0a40; }
+        50% { stroke: #2a1500; }
+        75% { stroke: #003830; }
+      }
+
+      .particle { animation: float 15s linear infinite; fill: currentColor; }
+      @keyframes float {
+        0% { transform: translateY(300px) rotate(0deg); opacity: 0; }
+        10% { opacity: 0.2; }
+        90% { opacity: 0.2; }
+        100% { transform: translateY(-50px) rotate(360deg); opacity: 0; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1000" height="300" rx="15" class="bg"/>
+
+  <!-- Grid Perspective -->
+  <g class="grid-line" opacity="0.3">
+    <path d="M0 300 L500 150 L1000 300" fill="none" />
+    <path d="M0 250 L1000 250" />
+    <path d="M0 200 L1000 200" />
+    <line x1="500" y1="150" x2="500" y2="300" />
+    <line x1="250" y1="225" x2="100" y2="300" />
+    <line x1="750" y1="225" x2="900" y2="300" />
+  </g>
+
+  <!-- Animated Particles -->
+  <g class="accent">
+    <circle cx="100" cy="0" r="1" class="particle" style="animation-delay: 0s" />
+    <circle cx="900" cy="0" r="1.5" class="particle" style="animation-delay: 5s" />
+    <circle cx="500" cy="0" r="1" class="particle" style="animation-delay: 2s" />
+    <circle cx="300" cy="0" r="2" class="particle" style="animation-delay: 8s" />
+    <circle cx="700" cy="0" r="1" class="particle" style="animation-delay: 12s" />
+  </g>
+
+  <!-- Center Content -->
+  <g transform="translate(500, 140)" text-anchor="middle">
+    <!-- Architect Icon replacing emojis -->
+    <g transform="translate(-25, -90) scale(2)" fill="none" stroke="currentColor" stroke-width="1.5" class="accent">
+      <path d="M3 21h18"/>
+      <path d="M5 21V7l8-4v18"/>
+      <path d="M9 7l4 4"/>
+      <path d="M13 7h8v4"/>
+    </g>
+    
+    <text y="0" font-size="75" class="text-main">ASHBORN</text>
+    <text y="40" class="text-sub">FRONTEND ARCHITECT | AI ORCHESTRATOR</text>
+    
+    <!-- Decorative brackets -->
+    <g transform="translate(-400, 0)" class="accent">
+      <path d="M0 -50 L-20 -50 L-20 50 L0 50" fill="none" stroke="currentColor" stroke-width="2" opacity="0.5"/>
+    </g>
+    <g transform="translate(400, 0)" class="accent">
+      <path d="M0 -50 L20 -50 L20 50 L0 50" fill="none" stroke="currentColor" stroke-width="2" opacity="0.5"/>
+    </g>
+  </g>
+
+  <!-- Floating badges -->
+  <g font-family="Share Tech Mono" font-size="10" opacity="0.5" fill="#e2e8f0">
+    <text x="50" y="270">[ SECTOR_047 ]</text>
+    <text x="850" y="270">[ VER_2.1_STABLE ]</text>
+  </g>
+
+  <rect x="5" y="5" width="990" height="290" rx="12" fill="none" class="grid-line" stroke-width="1" />
+</svg>
