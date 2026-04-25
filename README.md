@@ -110,7 +110,6 @@
 | 🐍 Snake Expedition | [tobimey](https://github.com/tobimey/github-contribution-grid-snake) |
 | 📜 Grimoire Layout | [DenverCoder1](https://github.com/DenverCoder1) |
 | 🚀 Space Shooter | [gh-space-shooter](https://github.com/czl9707/gh-space-shooter) |
-| 🧪 SVG Dynamics | [Claude](https://anthropic.com) |
 
 <div align="center">
 
